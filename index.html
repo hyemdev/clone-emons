@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>에몬스</title>
     <!--[if lt IE 9]>
       <script src="js/html5shiv.js"></script>
@@ -18,132 +19,146 @@
     />
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
 
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <div class="wrap">
       <!-- 헤더 -->
-      <link rel="stylesheet" href="css/header.css" />
-
       <header class="header">
-        <div class="inner">
-          <div class="header-top">
+        <div class="header-top">
+          <div class="inner">
             <div class="header-top-link">
-              <a href="#" class="offline">OFFLINE 에몬스</a>
-              <a href="#" class="online">ONLINE 에몬스몰</a>
+              <a href="#" class="offline"
+                ><p>OFFLINE</p>
+                <b>에몬스</b></a
+              >
+              <a href="#" class="online"
+                ><p>ONLINE</p>
+                <b>에몬스몰</b></a
+              >
             </div>
-            <div class="header-top-mypage">
-              <ul class="header-mypage-list">
-                <li>회사소개</li>
-                <li>로그인</li>
-                <li>회원가입</li>
-                <li>e-카탈로그</li>
-              </ul>
+            <ul class="header-mypage-list clearfix">
+              <li>회사소개</li>
+              <li>로그인</li>
+              <li>회원가입</li>
+              <li>e-카탈로그</li>
+            </ul>
+            <div class="header-main">
+              <div class="header-logo">
+                <img src="img/emons_logo.svg" alt="logo" />
+              </div>
+              <nav class="gnb">
+                <div class="header-mainmenu clearfix">
+                  <a href="#" class="header-category"
+                    ><img src="img/cate_icon.png" alt="카테고리" /> 카테고리</a
+                  >
+                  <ul class="header-menu-cate">
+                    <li>
+                      <a href="#">침실가구</a>
+                      <ul class="header-cate-bed">
+                        <li><a href="#">침대</a></li>
+                        <li><a href="#">협탁</a></li>
+                        <li><a href="#">서랍장</a></li>
+                        <li><a href="#">화장대</a></li>
+                        <li><a href="#">스툴</a></li>
+                        <li><a href="#">소가구</a></li>
+                        <li><a href="#">패밀리 침대</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">매트리스</a>
+                      <ul class="header-cate-mat">
+                        <li><a href="#">매트리스</a></li>
+                        <li><a href="#">베개</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">붙박이장/옷장</a>
+                      <ul class="header-cate-closet">
+                        <li><a href="#">붙박이장</a></li>
+                        <li><a href="#">옷장</a></li>
+                        <li><a href="#">슬라이딩장</a></li>
+                        <li><a href="#">드레스룸</a></li>
+                        <li><a href="#">서랍장</a></li>
+                        <li><a href="#">소가구</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">소파/거실가구</a>
+                      <ul class="header-cate-sofa">
+                        <li><a href="#">가죽 소파</a></li>
+                        <li><a href="#">패브릭 소파</a></li>
+                        <li><a href="#">리클라이너</a></li>
+                        <li><a href="#">거실장</a></li>
+                        <li><a href="#">소파 테이블</a></li>
+                        <li><a href="#">장식장</a></li>
+                        <li><a href="#">사이드테이블</a></li>
+                        <li><a href="#">소가구</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">식탁/주방가구</a>
+                      <ul class="header-cate-kitchen">
+                        <li><a href="#">식탁세트</a></li>
+                        <li><a href="#">식탁</a></li>
+                        <li><a href="#">식탁의자</a></li>
+                        <li><a href="#">식탁벤치</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">서재/싱글룸</a>
+                      <ul class="header-cate-desk">
+                        <li><a href="#">책상</a></li>
+                        <li><a href="#">책상의자</a></li>
+                        <li><a href="#">책장</a></li>
+                        <li><a href="#">침대</a></li>
+                        <li><a href="#">매트리스</a></li>
+                        <li><a href="#">옷장</a></li>
+                        <li><a href="#">서랍장</a></li>
+                        <li><a href="#">소가구</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">자녀방</a>
+                      <ul class="header-cate-kid">
+                        <li><a href="#">책상</a></li>
+                        <li><a href="#">책상의자</a></li>
+                        <li><a href="#">책장</a></li>
+                        <li><a href="#">침대</a></li>
+                        <li><a href="#">매트리스</a></li>
+                        <li><a href="#">옷장</a></li>
+                        <li><a href="#">서랍장</a></li>
+                        <li><a href="#">소가구</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">온열 침대/쇼파</a>
+                      <ul class="header-cate-warm">
+                        <li><a href="#">침대</a></li>
+                        <li><a href="#">소파</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="header-submenu clearfix">
+                  <ul class="header-sub-list">
+                    <li><a href="#">이벤트</a></li>
+                    <li><a href="#">클리어런스</a></li>
+                    <li><a href="#">에몬스LIVE</a></li>
+                    <li><a href="#">고객리뷰</a></li>
+                    <li><a href="#">매장찾기</a></li>
+                    <li><a href="#">고객지원</a></li>
+                  </ul>
+                </div>
+              </nav>
+              <div class="header-search"></div>
             </div>
           </div>
-          <div class="header-logo"><img src="#" alt="logo" />logo</div>
-          <div class="header-mainmenu">
-            <a href="#" class="header-category">카테고리</a>
-            <ul class="header-menu-cate">
-              <li>
-                <a href="#">침실가구</a>
-                <ul class="header-cate-bed">
-                  <li><a href="#">침대</a></li>
-                  <li><a href="#">협탁</a></li>
-                  <li><a href="#">서랍장</a></li>
-                  <li><a href="#">화장대</a></li>
-                  <li><a href="#">스툴</a></li>
-                  <li><a href="#">소가구</a></li>
-                  <li><a href="#">패밀리 침대</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="#">매트리스</a>
-                <ul class="header-cate-mat">
-                  <li><a href="#">매트리스</a></li>
-                  <li><a href="#">베개</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="#">붙박이장/옷장</a>
-                <ul class="header-cate-closet">
-                  <li><a href="#">붙박이장</a></li>
-                  <li><a href="#">옷장</a></li>
-                  <li><a href="#">슬라이딩장</a></li>
-                  <li><a href="#">드레스룸</a></li>
-                  <li><a href="#">서랍장</a></li>
-                  <li><a href="#">소가구</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="#">소파/거실가구</a>
-                <ul class="header-cate-sofa">
-                  <li><a href="#">가죽 소파</a></li>
-                  <li><a href="#">패브릭 소파</a></li>
-                  <li><a href="#">리클라이너</a></li>
-                  <li><a href="#">거실장</a></li>
-                  <li><a href="#">소파 테이블</a></li>
-                  <li><a href="#">장식장</a></li>
-                  <li><a href="#">사이드테이블</a></li>
-                  <li><a href="#">소가구</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="#">식탁/주방가구</a>
-                <ul class="header-cate-kitchen">
-                  <li><a href="#">식탁세트</a></li>
-                  <li><a href="#">식탁</a></li>
-                  <li><a href="#">식탁의자</a></li>
-                  <li><a href="#">식탁벤치</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="#">서재/싱글룸</a>
-                <ul class="header-cate-desk">
-                  <li><a href="#">책상</a></li>
-                  <li><a href="#">책상의자</a></li>
-                  <li><a href="#">책장</a></li>
-                  <li><a href="#">침대</a></li>
-                  <li><a href="#">매트리스</a></li>
-                  <li><a href="#">옷장</a></li>
-                  <li><a href="#">서랍장</a></li>
-                  <li><a href="#">소가구</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="#">자녀방</a>
-                <ul class="header-cate-kid">
-                  <li><a href="#">책상</a></li>
-                  <li><a href="#">책상의자</a></li>
-                  <li><a href="#">책장</a></li>
-                  <li><a href="#">침대</a></li>
-                  <li><a href="#">매트리스</a></li>
-                  <li><a href="#">옷장</a></li>
-                  <li><a href="#">서랍장</a></li>
-                  <li><a href="#">소가구</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="#">온열 침대/쇼파</a>
-                <ul class="header-cate-warm">
-                  <li><a href="#">침대</a></li>
-                  <li><a href="#">소파</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-          <div class="header-submenu">
-            <ul class="header-sub-list">
-              <li><a href="#">이벤트</a></li>
-              <li><a href="#">클리어런스</a></li>
-              <li><a href="#">에몬스LIVE</a></li>
-              <li><a href="#">고객리뷰</a></li>
-              <li><a href="#">매장찾기</a></li>
-              <li><a href="#">고객지원</a></li>
-            </ul>
-          </div>
-          <div class="header-search"></div>
         </div>
       </header>
       <!--// 헤더 -->
@@ -200,12 +215,12 @@
           },
         });
       </script>
-      </script>
-      <!--// 비주얼 -->
+      <!-- // 비주얼 -->
+
       <!-- 프로덕트 -->
       <section class="product">
         <div class="inner">
-          <ul class="product-list">
+          <ul class="product-list clearfix">
             <li>
               <a href="#"
                 ><img src="img/product1.jpg" alt="product" />

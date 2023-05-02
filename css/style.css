@@ -24,6 +24,16 @@ body {
 
 /* 공통 클래스 */
 .inner {
-  width: 1400px;
+  position: relative;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+  display: block;
+  position: relative;
+  content: "";
+  width: 100%;
+  clear: both;
 }
 

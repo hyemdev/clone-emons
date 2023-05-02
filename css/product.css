@@ -1,0 +1,24 @@
+.product {
+  margin-bottom: 150px;
+}
+.product-list > li {
+  float: left;
+  margin-right: 44px;
+}
+
+.product-list > li:last-child {
+  margin-right: 0;
+}
+
+.product-list li img {
+  width: 135px;
+  height: 135px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.product-title {
+  font-size: 18px;
+  text-align: center;
+  padding-top: 40px;
+}
