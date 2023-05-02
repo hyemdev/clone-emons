@@ -2,6 +2,10 @@
 @import url("font.css");
 @import url("gallery.css");
 @import url("media.css");
+@import url("header.css");
+@import url("visual.css");
+@import url("product.css");
+@import url("event.css");
 a {
   color: #000;
   text-decoration: none;
