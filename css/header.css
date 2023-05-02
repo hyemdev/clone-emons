@@ -1,0 +1,179 @@
+/* 헤더 */
+
+.header {
+  margin-bottom: 150px;
+}
+.header-top {
+  width: 100%;
+  height: 60px;
+  background: rgba(0, 0, 0, 0.05);
+}
+.header-top-link {
+  height: 60px;
+}
+
+.offline {
+  display: inline-block;
+  width: 240px;
+  height: 55px;
+  background: #fff;
+  border-radius: 15px 15px 0 0;
+  margin: 12px 0;
+}
+.offline b {
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+  text-align: center;
+  line-height: 13px;
+}
+.offline p {
+  display: block;
+  font-size: 12px;
+  font-weight: 400;
+  color: #14008c;
+  text-align: center;
+  line-height: 13px;
+}
+
+.online {
+  display: inline-block;
+  width: 240px;
+  height: 55px;
+  border-radius: 15px 15px 0 0;
+  margin: 12px 0;
+}
+
+.online b {
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  line-height: 13px;
+}
+.online p {
+  display: block;
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  line-height: 13px;
+}
+
+.header-mypage-list {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 12px;
+}
+
+.header-mypage-list {
+  padding-top: 10px;
+}
+.header-mypage-list li {
+  float: left;
+  padding: 15px;
+}
+
+.header-main {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.header-logo {
+  height: 90px;
+  text-align: center;
+}
+.header-logo img {
+  display: inline-block;
+  width: 175px;
+  height: 26px;
+  margin: 40px 0 25px 0;
+}
+
+.header-mainmenu {
+  max-width: 1400px;
+  height: 60px;
+  float: left;
+}
+.header-category {
+  display: block;
+  width: 160px;
+  height: 60px;
+  font-size: 18px;
+  background: lavender;
+}
+.header-menu-cate {
+  /* width: 1400px; */
+  height: 480px;
+  background: lavender;
+  /* z-index: 999999; */
+}
+.header-cate-bed {
+}
+.header-cate-bed li {
+}
+.header-cate-bed li a {
+}
+
+.header-cate-mat {
+}
+.header-cate-mat li {
+}
+.header-cate-mat li a {
+}
+
+.header-cate-closet {
+}
+.header-cate-closet li {
+}
+.header-cate-closet li a {
+}
+
+.header-cate-sofa {
+}
+.header-cate-sofa li {
+}
+.header-cate-sofa li a {
+}
+
+.header-cate-kitchen {
+}
+.header-cate-kitchen li {
+}
+.header-cate-kitchen li a {
+}
+
+.header-cate-desk {
+}
+.header-cate-desk li {
+}
+.header-cate-desk li a {
+}
+
+.header-cate-kid {
+}
+.header-cate-kid li {
+}
+.header-cate-kid li a {
+}
+
+.header-cate-warm {
+}
+.header-cate-warm li {
+}
+.header-cate-warm li a {
+}
+
+.header-submenu {
+}
+.header-sub-list {
+}
+.header-sub-list li {
+  font-size: 18px;
+  float: left;
+  margin-right: 50px;
+}
+.header-sub-list li a {
+}
