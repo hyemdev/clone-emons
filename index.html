@@ -26,7 +26,8 @@
       <!-- 헤더 -->
       <header class="header">
         <div class="header-top">
-          <div class="inner">
+          <!-- <div class="inner"> -->
+          <div class="header-inner">
             <div class="header-top-link">
               <a href="#" class="offline"
                 ><p>OFFLINE</p>
@@ -37,26 +38,27 @@
                 <b>에몬스몰</b></a
               >
             </div>
-            <ul class="header-mypage-list clearfix">
-              <li>회사소개</li>
-              <li>로그인</li>
-              <li>회원가입</li>
-              <li>e-카탈로그</li>
-            </ul>
-            <div class="header-main">
-              <div class="header-logo">
-                <img src="img/emons_logo.svg" alt="logo" />
-              </div>
-              <nav class="gnb">
-                <ul class="header-mainmenu clearfix">
-                  <li class="header-category">
-                    <a href="#" class="header-category-hover"
-                      ><img src="img/cate_icon.png" alt="카테고리" />
-                      카테고리</a
-                    >
-                    <ul class="header-menu-cate">
-                      <li>
-                        <a href="#">침실가구</a>
+            <div class="header-top-menu clearfix">
+              <ul class="header-mypage-list">
+                <li>회사소개</li>
+                <li>로그인</li>
+                <li>회원가입</li>
+                <li>e-카탈로그</li>
+              </ul>
+            </div>
+          </div>
+          <div class="header-main">
+            <div class="header-logo">
+              <img src="img/emons_logo.svg" alt="logo" />
+            </div>
+            <nav class="gnb">
+              <ul class="header-mainmenu">
+                <li>
+                  <a href="#" class="header-category-hover">카테고리</a>
+                  <ul class="header-menu-cate">
+                    <li>
+                      <a href="#">침실가구</a>
+                      <div class="header-cate-bed">
                         <ul class="header-cate-bed">
                           <li><a href="#">침대</a></li>
                           <li><a href="#">협탁</a></li>
@@ -66,17 +68,21 @@
                           <li><a href="#">소가구</a></li>
                           <li><a href="#">패밀리 침대</a></li>
                         </ul>
-                      </li>
-                      <li>
-                        <a href="#">매트리스</a>
-                        <ul class="header-cate-mat">
+                      </div>
+                    </li>
+                    <li>
+                      <a href="#">매트리스</a>
+                      <div class="header-cate-mat">
+                        <ul>
                           <li><a href="#">매트리스</a></li>
                           <li><a href="#">베개</a></li>
                         </ul>
-                      </li>
-                      <li>
-                        <a href="#">붙박이장/옷장</a>
-                        <ul class="header-cate-closet">
+                      </div>
+                    </li>
+                    <li>
+                      <a href="#">붙박이장/옷장</a>
+                      <div class="header-cate-closet">
+                        <ul>
                           <li><a href="#">붙박이장</a></li>
                           <li><a href="#">옷장</a></li>
                           <li><a href="#">슬라이딩장</a></li>
@@ -84,10 +90,12 @@
                           <li><a href="#">서랍장</a></li>
                           <li><a href="#">소가구</a></li>
                         </ul>
-                      </li>
-                      <li>
-                        <a href="#">소파/거실가구</a>
-                        <ul class="header-cate-sofa">
+                      </div>
+                    </li>
+                    <li>
+                      <a href="#">소파/거실가구</a>
+                      <div class="header-cate-sofa">
+                        <ul>
                           <li><a href="#">가죽 소파</a></li>
                           <li><a href="#">패브릭 소파</a></li>
                           <li><a href="#">리클라이너</a></li>
@@ -97,19 +105,23 @@
                           <li><a href="#">사이드테이블</a></li>
                           <li><a href="#">소가구</a></li>
                         </ul>
-                      </li>
-                      <li>
-                        <a href="#">식탁/주방가구</a>
+                      </div>
+                    </li>
+                    <li>
+                      <a href="#">식탁/주방가구</a>
+                      <div class="header-cate-kitchen">
                         <ul class="header-cate-kitchen">
                           <li><a href="#">식탁세트</a></li>
                           <li><a href="#">식탁</a></li>
                           <li><a href="#">식탁의자</a></li>
                           <li><a href="#">식탁벤치</a></li>
                         </ul>
-                      </li>
-                      <li>
-                        <a href="#">서재/싱글룸</a>
-                        <ul class="header-cate-desk">
+                      </div>
+                    </li>
+                    <li>
+                      <a href="#">서재/싱글룸</a>
+                      <div class="header-cate-desk">
+                        <ul>
                           <li><a href="#">책상</a></li>
                           <li><a href="#">책상의자</a></li>
                           <li><a href="#">책장</a></li>
@@ -119,10 +131,12 @@
                           <li><a href="#">서랍장</a></li>
                           <li><a href="#">소가구</a></li>
                         </ul>
-                      </li>
-                      <li>
-                        <a href="#">자녀방</a>
-                        <ul class="header-cate-kid">
+                      </div>
+                    </li>
+                    <li>
+                      <a href="#">자녀방</a>
+                      <div class="header-cate-kid">
+                        <ul>
                           <li><a href="#">책상</a></li>
                           <li><a href="#">책상의자</a></li>
                           <li><a href="#">책장</a></li>
@@ -132,88 +146,104 @@
                           <li><a href="#">서랍장</a></li>
                           <li><a href="#">소가구</a></li>
                         </ul>
-                      </li>
-                      <li>
-                        <a href="#">온열 침대/쇼파</a>
-                        <ul class="header-cate-warm">
-                          <li><a href="#">침대</a></li>
-                          <li><a href="#">소파</a></li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li>
-                  <li><a href="#">이벤트</a></li>
-                  <li><a href="#">클리어런스</a></li>
-                  <li><a href="#">에몬스LIVE</a></li>
-                  <li><a href="#">고객리뷰</a></li>
-                  <li><a href="#">매장찾기</a></li>
-                  <li><a href="#">고객지원</a></li>
-                </ul>
-              </nav>
-              <div class="header-search"></div>
-            </div>
+                      </div>
+                    </li>
+                    <li>
+                      <a href="#">온열 침대/쇼파</a>
+                      <ul class="header-cate-warm">
+                        <li><a href="#">침대</a></li>
+                        <li><a href="#">소파</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+
+              <ul class="header-submenu">
+                <li><a href="#">이벤트</a></li>
+                <li>
+                  <a href="#">에몬스LIVE<i class="red-dot"></i></a>
+                </li>
+                <li><a href="#">고객리뷰</a></li>
+                <li><a href="#">매장찾기</a></li>
+                <li><a href="#">고객지원</a></li>
+              </ul>
+            </nav>
+            <div class="header-search"></div>
           </div>
+          <!-- </div> -->
         </div>
       </header>
       <!--// 헤더 -->
       <!-- 비주얼 -->
       <section class="visual">
-        <div class="swiper sw-visual">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <a href="#"><img src="img/visual1.jpg" alt="비주얼" /></a>
-            </div>
-            <div class="swiper-slide">
-              <a href="#"><img src="img/visual2.jpg" alt="비주얼" /></a>
-            </div>
-            <div class="swiper-slide">
-              <a href="#"><img src="img/visual3.jpg" alt="비주얼" /></a>
-            </div>
-            <div class="swiper-slide">
-              <a href="#"><img src="img/visual4.jpg" alt="비주얼" /></a>
-            </div>
-            <div class="swiper-slide">
-              <a href="#"><img src="img/visual5.jpg" alt="비주얼" /></a>
-            </div>
-            <div class="swiper-slide">
-              <a href="#"><img src="img/visual6.jpg" alt="비주얼" /></a>
-            </div>
-            <div class="swiper-slide">
-              <a href="#"><img src="img/visual7.gif" alt="비주얼" /></a>
-            </div>
-            <div class="swiper-slide">
-              <a href="#"><img src="img/visual8.jpg" alt="비주얼" /></a>
+        <div class="visual-slide">
+          <button class="sw-prev">이전</button>
+          <button class="sw-next">다음</button>
+          <div class="swiper sw-visual">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="#"><img src="img/visual1.jpg" alt="비주얼" /></a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#"><img src="img/visual2.jpg" alt="비주얼" /></a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#"><img src="img/visual3.jpg" alt="비주얼" /></a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#"><img src="img/visual4.jpg" alt="비주얼" /></a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#"><img src="img/visual5.jpg" alt="비주얼" /></a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#"><img src="img/visual6.jpg" alt="비주얼" /></a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#"><img src="img/visual7.gif" alt="비주얼" /></a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#"><img src="img/visual8.jpg" alt="비주얼" /></a>
+              </div>
             </div>
           </div>
+          <!-- pagination -->
+          <div class="swiper-pagination"></div>
+          <!-- 스크롤바 -->
+          <div class="swiper-scrollbar"></div>
+          <!-- visual Swiper -->
+          <script>
+            var swiper = new Swiper(".sw-visual", {
+              slidesPerView: 1,
+              speed: 1000,
+              loop: true,
+              autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+              },
+
+              navigation: {
+                nextEl: ".visual .sw-next",
+                prevEl: ".visual .sw-prev",
+              },
+              scrollbar: {
+                el: ".swiper-scrollbar",
+              },
+
+              // pagination: {
+              //   el: ".swiper-pagination",
+              //   clickable: true,
+              // },
+            });
+          </script>
         </div>
-
-        <!-- visual Swiper -->
-        <script>
-          var swiper = new Swiper(".sw-visual", {
-            slidesPerView: 1,
-            speed: 1000,
-            loop: true,
-            autoplay: {
-              delay: 2500,
-              disableOnInteraction: false,
-            },
-
-            navigation: {
-              nextEl: "#",
-              prevEl: "#",
-            },
-            pagination: {
-              el: "#",
-              clickable: true,
-            },
-          });
-        </script>
       </section>
       <!-- // 비주얼 -->
       <!-- 프로덕트 -->
       <section class="product">
         <div class="inner">
-          <ul class="product-list clearfix">
+          <ul class="product-list">
             <li>
               <a href="#"
                 ><img src="img/product1.jpg" alt="product" />
@@ -275,7 +305,7 @@
               <div class="swiper-slide">
                 <a href="#" class="event-link"
                   ><img src="img/event1.jpg" alt="이벤트" />
-                  <div class="event-link-title">에몬스 페밀리 세일</div>
+                  <div class="event-link-title">에몬스 패밀리 세일</div>
                   <div class="event-link-desc">
                     에몬스 전제품 특별 할인전(일부 품목 제외)
                   </div></a
@@ -330,6 +360,12 @@
               slidesPerView: 3,
               slidesPerGroup: 3,
               spaceBetween: 25,
+              speed: 1000,
+              loop: true,
+              autoplay: {
+                delay: 2000,
+                disableOnInteraction: false,
+              },
             });
           </script>
         </div>
@@ -363,26 +399,27 @@
                 ><img src="img/gallery_bed4.jpg" alt="갤러리"
               /></a>
               <a href="#"><img src="img/gallery_bed5.jpg" alt="갤러리" /></a>
-              <!--// 갤러리 -->
-              <!-- 미디어 -->
-              <section class="media">
-                <div class="inner">
-                  <div class="media-video">
-                    <a href="#"><img src="img/media1.jpg" alt="미디어" /></a>
-                  </div>
-                  <div class="media-short">
-                    <div class="media-short-info">
-                      <span>표정있는 가구 에몬스</span>
-                      <p>에몬스의 이야기를 들어보세요</p>
-                    </div>
-                    <div class="media-short-ep"></div>
-                  </div>
-                </div>
-              </section>
             </div>
           </div>
         </div>
       </section>
+      <!--// 갤러리 -->
+      <!-- 미디어 -->
+      <section class="media">
+        <div class="inner">
+          <div class="media-video">
+            <a href="#"><img src="img/media1.jpg" alt="미디어" /></a>
+          </div>
+          <div class="media-short">
+            <div class="media-short-info">
+              <span>표정있는 가구 에몬스</span>
+              <p>에몬스의 이야기를 들어보세요</p>
+            </div>
+            <div class="media-short-ep"></div>
+          </div>
+        </div>
+      </section>
+
       <!-- 미디어 -->
       <section class="media"></section>
       <!--// 미디어 -->
