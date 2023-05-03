@@ -7,29 +7,29 @@ a {
     list-style: none;
   }
   img {
-    vertical-align: middle;
     border: 0;
+    vertical-align: middle;
   }
   html {
     font-size: 10px;
   }
   body {
+    color: #333;
     font-family: "Noto Sans KR", "roboto", "sans-serif";
     font-size: 14px;
-    color: #333;
     word-break: keep-all;
   }
   /* 공통클래스 */
   .inner {
+    position: relative;
     width: 1400px;
     margin: 0 auto;
-    position: relative;
   }
   .clearfix::after {
-    content: "";
-    position: relative;
     display: block;
+    position: relative;
     width: 100%;
+    content: "";
     clear: both;
   }
   .inner h2 {
