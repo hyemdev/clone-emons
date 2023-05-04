@@ -169,8 +169,6 @@
               </div>
               <div ></div>
             </div>
-
-
               <ul class="header-submenu">
                 <li><a href="#">이벤트</a></li>
                 <li>
@@ -250,6 +248,27 @@
             });
           </script>
         </div>
+        </div>
+        <!-- visual Swiper -->
+        <script>
+          var swiper = new Swiper(".sw-visual", {
+            slidesPerView: 1,
+            speed: 1000,
+            loop: true,
+            autoplay: {
+              delay: 2500,
+              disableOnInteraction: false,
+            },
+            navigation: {
+              nextEl: "#",
+              prevEl: "#",
+            },
+            pagination: {
+              el: "#",
+              clickable: true,
+            },
+          });
+        </script>
       </section>
       <!-- // 비주얼 -->
       <!-- 프로덕트 -->
@@ -382,7 +401,6 @@
           </script>
         </div>
       </section>
-
       <!--// 이벤트 -->
       <!-- 갤러리 -->
       <section class="gallery">
@@ -418,25 +436,145 @@
       <!--// 갤러리 -->
       <!-- 미디어 -->
       <section class="media">
-        <div class="inner">
+        <div class="inner clearfix">
           <div class="media-video">
             <a href="#"><img src="img/media1.jpg" alt="미디어" /></a>
           </div>
           <div class="media-short">
             <div class="media-short-info">
-              <span>표정있는 가구 에몬스</span>
               <p>에몬스의 이야기를 들어보세요</p>
+              <span>표정있는 가구 에몬스</span>
             </div>
             <div class="media-short-ep"></div>
           </div>
         </div>
       </section>
-
-      <!-- 미디어 -->
-      <section class="media"></section>
       <!--// 미디어 -->
       <!-- 프로모션 -->
-      <section class="promotion"></section>
+      <section class="promotion">
+        <div class="inner">
+          <button class="sw-bt sw-prev">이전</button>
+          <button class="sw-bt sw-next">다음</button>
+          <div class="swiper sw-promotion">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="#">
+                  <div class="promotion-img">
+                    <img src="img/promotion1.jpg" alt="프로모션" />
+                  </div>
+                  <div class="promotion-info">
+                    <span>치어리더, 박기량</span>
+                    <div class="viewbox">View</div>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <div class="promotion-img">
+                    <img src="img/promotion2.jpg" alt="프로모션" />
+                  </div>
+                  <div class="promotion-info">
+                    <span>볼링선수, 신수지</span>
+                    <div class="viewbox">View</div>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <div class="promotion-img">
+                    <img src="img/promotion3.jpg" alt="프로모션" />
+                  </div>
+                  <div class="promotion-info">
+                    <span>10월 신부, 아유미</span>
+                    <div class="viewbox">View</div>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <div class="promotion-img">
+                    <img src="img/promotion4.jpg" alt="프로모션" />
+                  </div>
+                  <div class="promotion-info">
+                    <span>신화, 앤디</span>
+                    <div class="viewbox">View</div>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <div class="promotion-img">
+                    <img src="img/promotion5.jpg" alt="프로모션" />
+                  </div>
+                  <div class="promotion-info">
+                    <span>국대 스포츠단 펜싱팀</span>
+                    <div class="viewbox">View</div>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <div class="promotion-img">
+                    <img src="img/promotion6.jpg" alt="프로모션" />
+                  </div>
+                  <div class="promotion-info">
+                    <span>뮤지컬 배우, 정선아</span>
+                    <div class="viewbox">View</div>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <div class="promotion-img">
+                    <img src="img/promotion7.jpg" alt="프로모션" />
+                  </div>
+                  <div class="promotion-info">
+                    <span>필라테스 여신, 양정원</span>
+                    <div class="viewbox">View</div>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <div class="promotion-img">
+                    <img src="img/promotion8.jpg" alt="프로모션" />
+                  </div>
+                  <div class="promotion-info">
+                    <span>피겨요정, 곽민정</span>
+                    <div class="viewbox">View</div>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <div class="promotion-img">
+                    <img src="img/promotion9.jpg" alt="프로모션" />
+                  </div>
+                  <div class="promotion-info">
+                    <span>방송인, 장영란</span>
+                    <div class="viewbox">View</div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <script>
+            new Swiper(".sw-promotion", {
+              slidesPerView: 3,
+              speed: 500,
+              loop: true,
+              autoplay: {
+                delay: 10000,
+                disableOnInteraction: false,
+              },
+              navigation: {
+                nextEl: ".promotion .sw-next",
+                prevEl: ".promotion .sw-prev",
+              },
+            });
+          </script>
+        </div>
+      </section>
       <!--// 프로모션 -->
       <!-- 리뷰 -->
       <section class="review"></section>
