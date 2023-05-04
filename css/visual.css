@@ -1,3 +1,56 @@
 .visual {
-    margin-bottom: 150px;
+  width: 100%;
+  margin-bottom: 150px;
+}
+
+.visual-slide {
+  position: relative;
+}
+.sw-prev {
+  position: absolute;
+  font-size: 0;
+  top: 50%;
+  left: 7%;
+  width: 50px;
+  height: 50px;
+  /* 버튼 중앙에 위치하기 */
+  background: url("../img/main_slide_arr.png") no-repeat center;
+  background-position: 0%;
+  transform: translate(50%, -50%);
+  z-index: 9;
+  border: 0;
+  cursor: pointer;
+}
+
+.sw-next {
+  position: absolute;
+  font-size: 0;
+  top: 50%;
+  right: 7%;
+
+  width: 50px;
+  height: 50px;
+  /* 버튼 중앙에 위치하기 */
+  background: url("../img/main_slide_arr.png") no-repeat center;
+  background-position: 100%;
+  transform: translate(50%, -50%);
+  z-index: 9;
+  border: 0;
+  cursor: pointer;
+}
+
+/* .swiper-pagination .swiper-pagination-bullet {
+    width: 100px;
+    height: 3px;
+    opacity: 0.2;
+    background: #fff;
+  }
+  .swiper-pagination .swiper-pagination-bullet-active {
+    width: 100px;
+    height: 5px;
+    opacity: 1;
+    background: #fff;
+  } */
+.swiper-scrollbar {
+  background: #fff;
 }

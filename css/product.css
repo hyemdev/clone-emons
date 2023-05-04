@@ -1,9 +1,10 @@
 .product {
   margin-bottom: 150px;
 }
-.product-list > li {
-  float: left;
-  margin-right: 44px;
+.product-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .product-list > li:last-child {
@@ -21,4 +22,5 @@
   font-size: 18px;
   text-align: center;
   padding-top: 40px;
+  color: #222;
 }
