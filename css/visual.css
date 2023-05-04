@@ -6,7 +6,7 @@
 .visual-slide {
   position: relative;
 }
-.sw-prev {
+.v-sw-prev {
   position: absolute;
   font-size: 0;
   top: 50%;
@@ -22,7 +22,7 @@
   cursor: pointer;
 }
 
-.sw-next {
+.v-sw-next {
   position: absolute;
   font-size: 0;
   top: 50%;

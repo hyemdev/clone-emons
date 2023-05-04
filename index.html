@@ -188,8 +188,8 @@
       <!-- 비주얼 -->
       <section class="visual">
         <div class="visual-slide">
-          <button class="sw-prev">이전</button>
-          <button class="sw-next">다음</button>
+          <button class="v-sw-prev">이전</button>
+          <button class="v-sw-next">다음</button>
           <div class="swiper sw-visual">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
@@ -234,8 +234,8 @@
               },
 
               navigation: {
-                nextEl: ".visual .sw-next",
-                prevEl: ".visual .sw-prev",
+                nextEl: ".visual .v-sw-next",
+                prevEl: ".visual .v-sw-prev",
               },
               scrollbar: {
                 el: ".swiper-scrollbar",
@@ -389,7 +389,7 @@
           <script>
             new Swiper(".sw-event", {
               slidesPerView: 3,
-              slidesPerGroup: 2,
+              slidesPerGroup: 3,
               spaceBetween: 25,
               speed: 1000,
               loop: true,
