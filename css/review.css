@@ -1,0 +1,137 @@
+.review {
+  margin-top: 150px;
+  padding: 100px 0;
+  height: 845px;
+  background: #f3f4f6;
+  text-align: center;
+}
+.review .inner h2 {
+  display: inline-block;
+  margin-bottom: 75px;
+}
+.sw-review {
+  min-width: 1400px;
+  margin: 0 auto;
+  position: relative;
+}
+.review .swiper-slide {
+  width: 320px;
+  padding: 15px;
+  background: #fff;
+  display: inline-block;
+  text-align: center;
+}
+.review-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+.review-info {
+  text-align: left;
+  padding: 0 8px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+.review-info span {
+  font-size: 16px;
+  letter-spacing: -0.32px;
+  font-weight: 700;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.review-subtitle {
+  margin-top: 10px;
+  font-size: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  line-height: 21px;
+}
+.review-id {
+  margin-top: 10px;
+  font-size: 14px;
+}
+.review-prod-img {
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  float: left;
+}
+.review-prod-img a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.review-prod-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.review-prod-info {
+  float: left;
+  text-align: left;
+  width: 205px;
+  padding-left: 15px;
+}
+.review-heart {
+  background: url("/img/reviewheart.svg") no-repeat;
+  background-size: cover;
+  margin-bottom: 9px;
+  font-size: 0;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  filter: invert(75%);
+  float: right;
+}
+.review-price {
+  float: left;
+  font-size: 13px;
+}
+.review-price p {
+  letter-spacing: -0.32px;
+  font-weight: 700;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.review-price span {
+  display: inline-block;
+  margin-top: 10px;
+}
+.r-sw-prev {
+  font-size: 0;
+  width: 30px;
+  height: 60px;
+  border: none;
+  position: absolute;
+  top: 50%;
+  left: -40px;
+  background: url("/img/review_arr.png") no-repeat;
+  z-index: 99;
+  transform: translate(0, 50%);
+}
+.r-sw-next {
+  font-size: 0;
+  width: 30px;
+  height: 60px;
+  border: none;
+  position: absolute;
+  top: 50%;
+  right: -40px;
+  background: url("/img/review_arr.png") no-repeat;
+  background-position: -30px;
+  z-index: 99;
+  transform: translate(0, 50%);
+  padding-left: 25px;
+}

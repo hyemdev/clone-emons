@@ -1,39 +1,41 @@
-@charset "utf-8";
+* {
+  box-sizing: border-box;
+}
 a {
-    color: #000;
-    text-decoration: none;
-  }
-  ul {
-    list-style: none;
-  }
-  img {
-    border: 0;
-    vertical-align: middle;
-  }
-  html {
-    font-size: 10px;
-  }
-  body {
-    color: #333;
-    font-family: "Noto Sans KR", "roboto", "sans-serif";
-    font-size: 14px;
-    word-break: keep-all;
-  }
-  /* 공통클래스 */
-  .inner {
-    position: relative;
-    width: 1400px;
-    margin: 0 auto;
-  }
-  .clearfix::after {
-    display: block;
-    position: relative;
-    width: 100%;
-    content: "";
-    clear: both;
-  }
-  .inner h2 {
-    font-size: 28px;
-    font-weight: 700;
-    line-height: 28px;
-  }  
+  color: #000;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+img {
+  border: 0;
+  vertical-align: middle;
+}
+html {
+  font-size: 10px;
+}
+body {
+  color: #333;
+  font-family: "Noto Sans KR", "roboto", "sans-serif";
+  font-size: 14px;
+  word-break: keep-all;
+}
+/* 공통클래스 */
+.inner {
+  position: relative;
+  width: 1400px;
+  margin: 0 auto;
+}
+.clearfix::after {
+  display: block;
+  position: relative;
+  width: 100%;
+  content: "";
+  clear: both;
+}
+.inner h2 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 28px;
+}
