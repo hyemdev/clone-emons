@@ -453,8 +453,8 @@
       <!-- 프로모션 -->
       <section class="promotion">
         <div class="inner">
-          <button class="sw-bt sw-prev">이전</button>
-          <button class="sw-bt sw-next">다음</button>
+          <button class="sw-bt p-sw-prev">이전</button>
+          <button class="sw-bt p-sw-next">다음</button>
           <div class="swiper sw-promotion">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
@@ -563,13 +563,14 @@
               slidesPerView: 3,
               speed: 500,
               loop: true,
+              touchRatio: 0,
               autoplay: {
                 delay: 10000,
                 disableOnInteraction: false,
               },
               navigation: {
-                nextEl: ".promotion .sw-next",
-                prevEl: ".promotion .sw-prev",
+                nextEl: ".promotion .p-sw-next",
+                prevEl: ".promotion .p-sw-prev",
               },
             });
           </script>
