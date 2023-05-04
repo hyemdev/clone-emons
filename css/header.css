@@ -75,13 +75,14 @@
 }
 .header-mypage-list {
   display: flex;
-  position: absolute;
+  /* position: absolute; */
   font-size: 12px;
   width: 270px;
-  top: 25px;
-  right: 250px;
+  /* top: 25px; */
+  /* right: 250px; */
   float: right;
   justify-content: space-between;
+  margin: -36px 0px;
 }
 .header-mypage-list li {
   float: left;
@@ -118,6 +119,7 @@
   margin: 0 auto;
 }
 .header-mainmenu {
+  
   display: flex;
   width: 163px;
   height: 40px;
@@ -152,7 +154,7 @@
 }
 
 .dropdown-menu {
-  /* display: none; */
+  display: none;
   /* display: block; */
   position: absolute;
   width: 100%;
@@ -245,6 +247,7 @@
 /* 검색창 */
 .search {
   position: absolute;
+  /* position: relative; */
   top: 150px;
   right: 250px;
   width: 220px;
