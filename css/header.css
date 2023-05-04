@@ -1,22 +1,20 @@
 /* 헤더상단 */
 
 .header {
+  /* position: absolute; */
   position: relative;
   margin-bottom: 150px;
 }
-.header-inner {
-  position: relative;
-  width: 1400px;
-  margin: 0 auto;
-}
+
 .header-top {
-  width: 100;
   height: 60px;
   background: rgba(0, 0, 0, 0.05);
 }
 
 /* 최상단 링크 */
 .header-top-link {
+  width: 1400px;
+  margin: 0 auto;
   display: flex;
   height: 60px;
   align-content: flex-start;
@@ -79,9 +77,9 @@
   display: flex;
   position: absolute;
   font-size: 12px;
-  width: 250px;
+  width: 270px;
   top: 25px;
-  right: 0;
+  right: 250px;
   float: right;
   justify-content: space-between;
 }
@@ -109,8 +107,8 @@
 .gnb {
   display: flex;
   position: relative;
-  /* padding-top: 4px; */
-  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  padding-top: 4px;
+  /* border-bottom: 1px solid rgba(0, 0, 0, 0.3); */
 }
 .header-main {
   width: 1400px;
@@ -132,16 +130,16 @@
 
   font-size: 18px;
   color: #222222;
-  padding: 10px 0;
+  padding: 8px 0;
 }
 
-.header-category-hover {
+.category-hover {
   display: block;
   font-size: 18px;
   height: 40px;
 }
 
-.header-category-hover::before {
+.category-hover::before {
   display: inline-block;
   width: 25px;
   height: 25px;
@@ -151,7 +149,7 @@
   margin-right: 10px;
 }
 
-.header-menu-cate {
+.dropdown-menu {
   display: block;
   position: absolute;
   width: 100%;
@@ -162,15 +160,15 @@
   z-index: 99;
   overflow: hidden;
 }
-.header-menu-cate ul {
+.dropdown-menu ul {
 }
-.header-menu-cate li:first-child {
+.dropdown-menu li:first-child {
   margin-top: 35px;
 }
-.header-menu-cate li {
+.dropdown-menu li {
   margin-top: 29px;
 }
-.header-menu-cate li a {
+.dropdown-menu li a {
   font-size: 14px;
 }
 
@@ -178,7 +176,7 @@
 .search {
   position: absolute;
   top: 150px;
-  right: 170px;
+  right: 250px;
   width: 220px;
   height: 40px;
 }
@@ -212,8 +210,7 @@
   vertical-align: middle;
   cursor: pointer;
 }
-
-
+/* 
 .show-menu {
   display: block;
   position: absolute;
@@ -222,8 +219,8 @@
   height: 480px;
   top: 60px;
   left: 200px;
-  /* position: relative; */
-  /* display: none; */
+  position: relative;
+  display: none;
   z-index: 999;
 }
 .show-menu li {
@@ -231,75 +228,7 @@
 }
 .show-menu li:first-child {
   margin-top: 0px;
-}
-
-.header-cate-bed {
-  /* display: none; */
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 480px;
-  margin-top: 35px;
-}
-
-.header-cate-mat {
-  /* display: none; */
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 480px;
-  margin-top: 35px;
-}
-
-.header-cate-closet {
-  /* display: none; */
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 480px;
-  margin-top: 35px;
-}
-
-.header-cate-sofa {
-  /* display: none; */
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 480px;
-  margin-top: 35px;
-}
-.header-cate-kitchen {
-  /* display: none; */
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 480px;
-  margin-top: 35px;
-}
-.header-cate-desk {
-  /* display: none; */
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 480px;
-  margin-top: 35px;
-}
-.header-cate-kid {
-  /* display: none; */
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 480px;
-  margin-top: 35px;
-}
-.header-cate-warm {
-  /* display: none; */
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 480px;
-  margin-top: 35px;
-}
+} */
 
 .cate-img {
 }
@@ -341,4 +270,3 @@
   background: #e32e07;
   border-radius: 50%;
 }
-

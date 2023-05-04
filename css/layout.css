@@ -20,6 +20,7 @@ a {
     word-break: keep-all;
   }
   /* 공통클래스 */
+
   .inner {
     position: relative;
     width: 1400px;
