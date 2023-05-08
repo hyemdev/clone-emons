@@ -23,7 +23,7 @@ a {
 
   .inner {
     position: relative;
-    width: 1400px;
+    max-width: 1400px;
     margin: 0 auto;
   }
   .clearfix::after {
