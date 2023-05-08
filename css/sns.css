@@ -1,0 +1,24 @@
+.sns .inner {
+  margin-top: 150px;
+  text-align: center;
+}
+.sns-top {
+  margin-bottom: 50px;
+}
+.sns-top span {
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 22px;
+  font-weight: 500;
+}
+.sns-middle {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  max-width: 1400px;
+}
+.sns-middle img {
+  width: 260px;
+  height: 260px;
+  border-radius: 10px;
+}
