@@ -14,7 +14,7 @@
   margin: 0 auto;
   position: relative;
 }
-.review .swiper-slide {
+.rv-slide {
   width: 320px;
   padding: 15px;
   background: #fff;
@@ -120,6 +120,7 @@
   background: url("/img/review_arr.png") no-repeat;
   z-index: 99;
   transform: translate(0, 50%);
+  cursor: pointer;
 }
 .r-sw-next {
   font-size: 0;
@@ -134,4 +135,5 @@
   z-index: 99;
   transform: translate(0, 50%);
   padding-left: 25px;
+  cursor: pointer;
 }
