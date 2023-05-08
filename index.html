@@ -23,367 +23,425 @@
   </head>
   <body>
     <div class="wrap">
+      <!-- 모바일용 하단메뉴 -->
+      <div class="mobile-ver">
+        <div class="mobile-menu">
+          <div class="mobile-m-group">
+            <a href="#" class="mobile-cate"><img src="img/mobile1.png" alt=""><p>카테고리</p></a>
+            <a href="#" class="mobile-search"><img src="img/mobile2.png" alt=""><p>검색</p></a>
+            <a href="#" class="mobile-home"><img src="img/mobile3.png" alt=""><p>홈</p></a>
+            <a href="#" class="mobile-mypage"><img src="img/mobile4.png" alt=""><p>마이페이지</p></a>
+            <a href="#" class="mobile-like"><img src="img/mobile5.png" alt=""><p>찜하기</p></a>
+          </div>
+        </div>
+        <div class="mobile-dropdown">
+          <div class="mobile-dropdown-title"><p>카테고리</p></div>
+          <ul>
+            <li><a href="#">침실가구</a></li>
+            <li><a href="#">매트리스</a></li>
+            <li><a href="#">붙박이장/옷장</a></li>
+            <li><a href="#">소파/거실가구</a></li>
+            <li><a href="#">식탁/주방가구</a></li>
+            <li><a href="#">서재/싱글룸</a></li>
+            <li><a href="#">자녀방</a></li>
+            <li><a href="#">온열 침대/소파</a></li>
+          </ul>
+        </div>
+    </div>
       <!-- 헤더 -->
       <header class="header">
         <div class="header-top">
-          <!-- <div class="inner"> -->
-          <div class="header-inner">
-            <div class="header-top-link">
-              <a href="#" class="offline"
-                ><p>OFFLINE</p>
-                <b>에몬스</b></a
-              >
-              <a href="#" class="online"
-                ><p>ONLINE</p>
-                <b>에몬스몰</b></a
-              >
-            </div>
-            <div class="header-top-menu clearfix">
-              <ul class="header-mypage-list">
-                <li>회사소개</li>
-                <li>로그인</li>
-                <li>회원가입</li>
-                <li>e-카탈로그</li>
-              </ul>
-            </div>
-          </div>
-          <div class="header-main">
-            <div class="header-logo">
-              <img src="img/emons_logo.svg" alt="logo" />
-            </div>
-            <nav class="gnb">
-              <ul class="header-mainmenu">
-                <li>
-                  <a href="#" class="header-category-hover">카테고리</a>
-                  <ul class="header-menu-cate">
-                    <li>
-                      <a href="#">침실가구</a>
-                    </li>
-                    <li>
-                      <a href="#">매트리스</a>
-                    </li>
-                    <li>
-                      <a href="#">붙박이장/옷장</a>
-                    </li>
-                    <li>
-                      <a href="#">소파/거실가구</a>
-                    </li>
-                    <li>
-                      <a href="#">식탁/주방가구</a>
-                    </li>
-                    <li>
-                      <a href="#">서재/싱글룸</a>
-                    </li>
-                    <li>
-                      <a href="#">자녀방</a>
-                    </li>
-                    <li>
-                      <a href="#">온열 침대/쇼파</a>
-                    </li>
-                  </ul>
+         <div class="header-top-link">
+          <a href="#" class="offline"
+           ><p>OFFLINE</p>
+           <b>에몬스</b></a
+          >
+          <a href="#" class="online"
+           ><p>ONLINE</p>
+           <b>에몬스몰</b></a
+          >
+         </div>
+         <div class="header-top-menu clearfix">
+          <ul class="header-mypage-list">
+           <li>회사소개</li>
+           <li>로그인</li>
+           <li>회원가입</li>
+           <li>e-카탈로그</li>
+          </ul>
+         </div>
+        </div>
+        <div class="header-1400px">
+          <div class="right-1400px">
+          <a href="#" class="logo-1400px"><img src="img/emons_logo.svg" alt="로고"></a>
+          <div class="logo-1400px-arr"><a href="#"><img src="img/logo_arr.png" alt="로고메뉴"></a></div>
+        </div>
+        </div> 
+        <div class="header-logo">
+         <img src="img/emons_logo.svg" alt="logo" />
+        </div>
+        <nav class="gnb">
+         <div class="header-bottom">
+          <div class="header-mainmenu">
+            <a href="#" class="category-hover">카테고리</a>
+                <div class="dropdown">
+                <ul class="dropdown-menu clearfix">
+                  <li class="bed-hover menu_underbar">
+                  <a href="#">침실가구<i class="right-arr"></i></a>
+                    <ul class="dropdown-sub sub-bed">
+                      <li><a href="#">침대</a></li>
+                      <li><a href="#">협탁</a></li>
+                      <li><a href="#">서랍장</a></li>
+                      <li><a href="#">화장대</a></li>
+                      <li><a href="#">스툴</a></li>
+                      <li><a href="#">소가구</a></li>
+                      <li><a href="#">패밀리 침대</a></li>
+                    </ul>
+                    <ul class="dropdown-img sub-bedimg">
+                      <li><img src="/img/catebed1.jpg" alt="카테이미지"><p>프렌치 화이트 침대</p></li>
+                      <li><img src="/img/catebed2.jpg" alt="카테이미지"><p>블리스 침대</p></li>
+                    </ul>
+                  </li>
+                  <li class="mat-hover menu_underbar">
+                  <a href="#">매트리스<i class="right-arr"></i></a>
+                    <ul class="dropdown-sub sub-mat">
+                      <li><a href="#">매트리스</a></li>
+                      <li><a href="#">베개</a></li>
+                    </ul>
+                    <ul class="dropdown-img sub-matimg">
+                      <li><img src="/img/catemat1.jpg" alt="카테이미지"><p>델라 매트리스</p></li>
+                      <li><img src="/img/catemat2.jpg" alt="카테이미지"><p>포레스500S 매트리스</p></li>
+                    </ul>
+                  </li>
+                  <li class="closet-hover menu_underbar">
+                  <a href="#">붙박이장/옷장<i class="right-arr"></i></a>
+                    <ul class="dropdown-sub sub-closet">
+                      <li><a href="#">붙박이장</a></li>
+                      <li><a href="#">옷장</a></li>
+                      <li><a href="#">슬라이딩장</a></li>
+                      <li><a href="#">드레스룸</a></li>
+                      <li><a href="#">서랍장</a></li>
+                      <li><a href="#">소가구</a></li>
+                    </ul> 
+                    <ul class="dropdown-img sub-closetimg">
+                      <li><img src="/img/catecloset1.jpg" alt="카테이미지"><p>클레어 갤러리 침실 시리즈 </p></li>
+                      <li><img src="/img/catecloset2.jpg" alt="카테이미지"><p>라비앙 커스텀 화이트</p></li>
+                    </ul>
+                  </li>
+                  <li class="sofa-hover menu_underbar">
+                  <a href="#">소파/거실가구<i class="right-arr"></i></a>
+                    <ul class="dropdown-sub sub-sofa">
+                      <li><a href="#">가죽 소파</a></li>
+                      <li><a href="#">패브릭 소파</a></li>
+                      <li><a href="#">리클라이너</a></li>
+                      <li><a href="#">거실장</a></li>
+                      <li><a href="#">소파 테이블</a></li>
+                      <li><a href="#">장식장</a></li>
+                      <li><a href="#">사이드테이블</a></li>
+                      <li><a href="#">소가구</a></li>
+                    </ul>
+                    <ul class="dropdown-img sub-sofaimg">
+                      <li><img src="/img/catesofa1.jpg" alt="카테이미지"><p>퍼스트 듀얼 리클라이너 소파 [4인]</p></li>
+                      <li><img src="/img/catesofa2.jpg" alt="카테이미지"><p>위브릭 코코S 패브릭 1인 소파 세트</p></li>
+                    </ul>
                 </li>
-              </ul>
-              <div class="show-menu">
-                <div class="header-cate-bed">
-                  <ul>
-                    <li><a href="#">침대</a></li>
-                    <li><a href="#">협탁</a></li>
-                    <li><a href="#">서랍장</a></li>
-                    <li><a href="#">화장대</a></li>
-                    <li><a href="#">스툴</a></li>
-                    <li><a href="#">소가구</a></li>
-                    <li><a href="#">패밀리 침대</a></li>
-                  </ul>
-                  <div class="cate-img">
-                    <div class="cate-img-bed">
-                      <img src="img/catebed1.jpg" alt="침대" /><a
-                        >프렌치 화이트 침대</a
-                      >
-                      <img src="img/catebed2.jpg" alt="침대" /><a
-                        >블리스 침대</a
-                      >
-                    </div>
-                  </div>
-                </div>
-                <div class="header-cate-mat">
-                  <ul>
-                    <li><a href="#">매트리스</a></li>
-                    <li><a href="#">베개</a></li>
-                  </ul>
-                </div>
-                <div class="header-cate-closet">
-                  <ul>
-                    <li><a href="#">붙박이장</a></li>
-                    <li><a href="#">옷장</a></li>
-                    <li><a href="#">슬라이딩장</a></li>
-                    <li><a href="#">드레스룸</a></li>
-                    <li><a href="#">서랍장</a></li>
-                    <li><a href="#">소가구</a></li>
-                  </ul>
-                </div>
-                <div class="header-cate-sofa">
-                  <ul>
-                    <li><a href="#">가죽 소파</a></li>
-                    <li><a href="#">패브릭 소파</a></li>
-                    <li><a href="#">리클라이너</a></li>
-                    <li><a href="#">거실장</a></li>
-                    <li><a href="#">소파 테이블</a></li>
-                    <li><a href="#">장식장</a></li>
-                    <li><a href="#">사이드테이블</a></li>
-                    <li><a href="#">소가구</a></li>
-                  </ul>
-                </div>
-                <div class="header-cate-kitchen">
-                  <ul>
+                  <li class="kitc-hover menu_underbar">
+                  <a href="#">식탁/주방가구<i class="right-arr"></i></a>
+                  <ul class="dropdown-sub sub-kitc">
                     <li><a href="#">식탁세트</a></li>
                     <li><a href="#">식탁</a></li>
                     <li><a href="#">식탁의자</a></li>
                     <li><a href="#">식탁벤치</a></li>
                   </ul>
-                </div>
-                <div class="header-cate-desk">
-                  <ul>
-                    <li><a href="#">책상</a></li>
-                    <li><a href="#">책상의자</a></li>
-                    <li><a href="#">책장</a></li>
-                    <li><a href="#">침대</a></li>
-                    <li><a href="#">매트리스</a></li>
-                    <li><a href="#">옷장</a></li>
-                    <li><a href="#">서랍장</a></li>
-                    <li><a href="#">소가구</a></li>
+                  <ul class="dropdown-img sub-kitcimg">
+                    <li><img src="/img/catekitc1.jpg" alt="카테이미지"><p>커스텀 식탁 세트</p></li>
+                    <li><img src="/img/catekitc2.jpg" alt="카테이미지"><p>아르네 원목 세라믹 4인 식탁세트</p></li>
                   </ul>
-                </div>
-                <div class="header-cate-kid">
-                  <ul>
-                    <li><a href="#">책상</a></li>
-                    <li><a href="#">책상의자</a></li>
-                    <li><a href="#">책장</a></li>
-                    <li><a href="#">침대</a></li>
-                    <li><a href="#">매트리스</a></li>
-                    <li><a href="#">옷장</a></li>
-                    <li><a href="#">서랍장</a></li>
-                    <li><a href="#">소가구</a></li>
-                  </ul>
-                </div>
-                <div class="header-cate-warm">
-                  <ul>
-                    <li><a href="#">침대</a></li>
-                    <li><a href="#">소파</a></li>
-                  </ul>
-                </div>
-                <div></div>
+                  </li>
+                  <li class="desk-hover menu_underbar">
+                  <a href="#">서재/싱글룸<i class="right-arr"></i></a>
+                    <ul class="dropdown-sub sub-desk">
+                      <li><a href="#">책상</a></li>
+                      <li><a href="#">책상의자</a></li>
+                      <li><a href="#">책장</a></li>
+                      <li><a href="#">침대</a></li>
+                      <li><a href="#">매트리스</a></li>
+                      <li><a href="#">옷장</a></li>
+                      <li><a href="#">서랍장</a></li>
+                      <li><a href="#">소가구</a></li>
+                    </ul>
+                    <ul class="dropdown-img sub-deskimg">
+                      <li><img src="/img/catedesk1.jpg" alt="카테이미지"><p>레이어드 시리즈</p></li>
+                      <li><img src="/img/catedesk2.jpg" alt="카테이미지"><p>무아시리즈 [홈오피스]</p></li>
+                    </ul>
+                  </li>
+                  <li class="kid-hover menu_underbar">
+                  <a href="#">자녀방<i class="right-arr"></i></a>
+                    <ul class="dropdown-sub sub-kid">
+                      <li><a href="#">책상</a></li>
+                      <li><a href="#">책상의자</a></li>
+                      <li><a href="#">책장</a></li>
+                      <li><a href="#">침대</a></li>
+                      <li><a href="#">매트리스</a></li>
+                      <li><a href="#">옷장</a></li>
+                      <li><a href="#">서랍장</a></li>
+                      <li><a href="#">소가구</a></li>
+                    </ul>
+                    <ul class="dropdown-img sub-kidimg">
+                      <li><img src="/img/catekid1.jpg" alt="카테이미지"><p>클레어 침실 시리즈</p></li>
+                      <li><img src="/img/catekid2.jpg" alt="카테이미지"><p>레이어드 시리즈</p></li>
+                    </ul>
+                  </li>
+                  <li class="warm-hover menu_underbar">
+                  <a href="#">온열 침대/쇼파<i class="right-arr"></i></a>
+                    <ul class="dropdown-sub sub-warm">
+                      <li><a href="#">침대</a></li>
+                      <li><a href="#">소파</a></li>
+                    </ul>
+                    <ul class="dropdown-img sub-warmimg">
+                      <li><img src="/img/catewarm1.jpg" alt="카테이미지"><p>온열 시저스 소파 [3인]</p></li>
+                      <li><img src="/img/catewarm2.jpg" alt="카테이미지"><p>라티오 온열베드전용 침대</p></li>
+                    </ul>
+                  </li>
+                </ul>
               </div>
-              <ul class="header-submenu">
-                <li><a href="#">이벤트</a></li>
-                <li>
-                  <a href="#">에몬스LIVE<i class="red-dot"></i></a>
-                </li>
-                <li><a href="#">고객리뷰</a></li>
-                <li><a href="#">매장찾기</a></li>
-                <li><a href="#">고객지원</a></li>
-              </ul>
-            </nav>
-            <div class="header-search"></div>
           </div>
-          <!-- </div> -->
-        </div>
-      </header>
+          <ul class="header-submenu">
+           <li><a href="#">이벤트</a></li>
+           <li>
+            <a href="#">에몬스LIVE<i class="red-dot"></i></a>
+           </li>
+           <li><a href="#">고객리뷰</a></li>
+           <li><a href="#">매장찾기</a></li>
+           <li><a href="#">고객지원</a></li>
+          </ul>
+          <div class="search clearfix">
+           <form class="header-search">
+            <input
+             type="text"
+             class="search-text"
+             maxlength="50"
+             placeholder="검색어 입력"
+            />
+            <input type="button" class="search-bt" />
+           </form>
+          </div>
+         </div>
+        </nav>
+
+        </header>
       <!--// 헤더 -->
+
       <!-- 비주얼 -->
       <section class="visual">
         <div class="visual-slide">
-          <button class="sw-prev">이전</button>
-          <button class="sw-next">다음</button>
-          <div class="swiper sw-visual">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <a href="#"><img src="img/visual1.jpg" alt="비주얼" /></a>
-              </div>
-              <div class="swiper-slide">
-                <a href="#"><img src="img/visual2.jpg" alt="비주얼" /></a>
-              </div>
-              <div class="swiper-slide">
-                <a href="#"><img src="img/visual3.jpg" alt="비주얼" /></a>
-              </div>
-              <div class="swiper-slide">
-                <a href="#"><img src="img/visual4.jpg" alt="비주얼" /></a>
-              </div>
-              <div class="swiper-slide">
-                <a href="#"><img src="img/visual5.jpg" alt="비주얼" /></a>
-              </div>
-              <div class="swiper-slide">
-                <a href="#"><img src="img/visual6.jpg" alt="비주얼" /></a>
-              </div>
-              <div class="swiper-slide">
-                <a href="#"><img src="img/visual7.gif" alt="비주얼" /></a>
-              </div>
-              <div class="swiper-slide">
-                <a href="#"><img src="img/visual8.jpg" alt="비주얼" /></a>
-              </div>
+         <button class="v-sw-prev">이전</button>
+         <button class="v-sw-next">다음</button>
+         <div class="swiper sw-visual">
+          <div class="swiper-wrapper">
+           <div class="swiper-slide">
+            <div class="visual-resp-1">
+             <a href="#"><img src="img/visual1.jpg" alt="비주얼" /></a>
             </div>
+           </div>
+           <div class="swiper-slide">
+            <div class="visual-resp-2">
+             <a href="#"><img src="img/visual2.jpg" alt="비주얼" /></a>
+            </div>
+           </div>
+           <div class="swiper-slide">
+            <div class="visual-resp-3">
+             <a href="#"><img src="img/visual3.jpg" alt="비주얼" /></a>
+            </div>
+           </div>
+           <div class="swiper-slide">
+            <div class="visual-resp-4">
+             <a href="#"><img src="img/visual4.jpg" alt="비주얼" /></a>
+            </div>
+           </div>
+           <div class="swiper-slide">
+            <div class="visual-resp-5">
+             <a href="#"><img src="img/visual5.jpg" alt="비주얼" /></a>
+            </div>
+           </div>
+           <div class="swiper-slide">
+            <div class="visual-resp-6">
+             <a href="#"><img src="img/visual6.jpg" alt="비주얼" /></a>
+            </div>
+           </div>
+           <div class="swiper-slide">
+            <div class="visual-resp-7">
+             <a href="#"><img src="img/visual7.gif" alt="비주얼" /></a>
+            </div>
+           </div>
+           <div class="swiper-slide">
+            <div class="visual-resp-8">
+             <a href="#"><img src="img/visual8.jpg" alt="비주얼" /></a>
+            </div>
+           </div>
           </div>
-          <!-- pagination -->
-          <div class="swiper-pagination"></div>
-          <!-- 스크롤바 -->
-          <div class="swiper-scrollbar"></div>
-          <!-- visual Swiper -->
-          <script>
-            var swiper = new Swiper(".sw-visual", {
-              slidesPerView: 1,
-              speed: 1000,
-              loop: true,
-              autoplay: {
-                delay: 2500,
-                disableOnInteraction: false,
-              },
-
-              navigation: {
-                nextEl: ".visual .sw-next",
-                prevEl: ".visual .sw-prev",
-              },
-              scrollbar: {
-                el: ".swiper-scrollbar",
-              },
-
-              // pagination: {
-              //   el: ".swiper-pagination",
-              //   clickable: true,
-              // },
-            });
-          </script>
+         </div>
+         <!-- pagination -->
+         <div class="swiper-pagination"></div>
+         <!-- 스크롤바 -->
+         <div class="swiper-scrollbar"></div>
+         <!-- visual Swiper -->
+         <script>
+          var swiper = new Swiper(".sw-visual", {
+           slidesPerView: 1,
+           speed: 1000,
+           loop: true,
+           autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+           },
+    
+           navigation: {
+            nextEl: ".visual .v-sw-next",
+            prevEl: ".visual .v-sw-prev",
+           },
+           scrollbar: {
+            el: ".swiper-scrollbar",
+           },
+    
+           // pagination: {
+           //   el: ".swiper-pagination",
+           //   clickable: true,
+           // },
+          });
+         </script>
         </div>
-      </section>
+       </section>
       <!-- // 비주얼 -->
       <!-- 프로덕트 -->
-      <section class="product">
+      <section class="product clearfix">
         <div class="inner">
+         <div class="prod-wrap">
           <ul class="product-list">
-            <li>
-              <a href="#"
-                ><img src="img/product1.jpg" alt="product" />
-                <p class="product-title">침대</p></a
-              >
-            </li>
-            <li>
-              <a href="#"
-                ><img src="img/product2.jpg" alt="product" />
-                <p class="product-title">매트리스</p></a
-              >
-            </li>
-            <li>
-              <a href="#"
-                ><img src="img/product3.jpg" alt="product" />
-                <p class="product-title">옷장&붙박이장</p></a
-              >
-            </li>
-            <li>
-              <a href="#"
-                ><img src="img/product4.jpg" alt="product" />
-                <p class="product-title">가죽 소파</p></a
-              >
-            </li>
-            <li>
-              <a href="#"
-                ><img src="img/product5.jpg" alt="product" />
-                <p class="product-title">패브릭 소파</p></a
-              >
-            </li>
-            <li>
-              <a href="#"
-                ><img src="img/product6.jpg" alt="product" />
-                <p class="product-title">거실가구</p></a
-              >
-            </li>
-            <li>
-              <a href="#"
-                ><img src="img/product7.jpg" alt="product" />
-                <p class="product-title">주방가구</p></a
-              >
-            </li>
-            <li>
-              <a href="#"
-                ><img src="img/product8.jpg" alt="product" />
-                <p class="product-title">학생방&서재</p></a
-              >
-            </li>
+           <li>
+            <a href="#"
+             ><img src="img/product1.jpg" alt="product" />
+             <p class="product-title">침대</p></a
+            >
+           </li>
+           <li>
+            <a href="#"
+             ><img src="img/product2.jpg" alt="product" />
+             <p class="product-title">매트리스</p></a
+            >
+           </li>
+           <li>
+            <a href="#"
+             ><img src="img/product3.jpg" alt="product" />
+             <p class="product-title">옷장&붙박이장</p></a
+            >
+           </li>
+           <li>
+            <a href="#"
+             ><img src="img/product4.jpg" alt="product" />
+             <p class="product-title">가죽 소파</p></a
+            >
+           </li>
+           <li>
+            <a href="#"
+             ><img src="img/product5.jpg" alt="product" />
+             <p class="product-title">패브릭 소파</p></a
+            >
+           </li>
+           <li>
+            <a href="#"
+             ><img src="img/product6.jpg" alt="product" />
+             <p class="product-title">거실가구</p></a
+            >
+           </li>
+           <li>
+            <a href="#"
+             ><img src="img/product7.jpg" alt="product" />
+             <p class="product-title">주방가구</p></a
+            >
+           </li>
+           <li>
+            <a href="#"
+             ><img src="img/product8.jpg" alt="product" />
+             <p class="product-title">학생방&서재</p></a
+            >
+           </li>
           </ul>
+         </div>
         </div>
-      </section>
+       </section>
       <!--// 프로덕트 -->
       <!-- 이벤트 -->
       <section class="event">
         <div class="inner">
-          <h2>놓칠 수 없는 이야기</h2>
-          <div class="swiper sw-event">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <a href="#" class="event-link"
-                  ><img src="img/event1.jpg" alt="이벤트" />
-                  <div class="event-link-title">에몬스 패밀리 세일</div>
-                  <div class="event-link-desc">
-                    에몬스 전제품 특별 할인전(일부 품목 제외)
-                  </div></a
-                >
-              </div>
-              <div class="swiper-slide">
-                <a href="#" class="event-link"
-                  ><img src="img/event2.jpg" alt="이벤트" />
-                  <div class="event-link-title">
-                    KBS1 일일드라마 금이야옥이야
-                  </div>
-                  <div class="event-link-desc">
-                    에몬스가 제품(가구)협찬 합니다.
-                  </div>
-                </a>
-              </div>
-              <div class="swiper-slide">
-                <a href="#" class="event-link"
-                  ><img src="img/event3.jpg" alt="이벤트" />
-                  <div class="event-link-title">
-                    우리집 요즘공간 #요즘 에몬스
-                  </div>
-                  <div class="event-link-desc">
-                    에몬스가 제품(가구)협찬 합니다.
-                  </div>
-                </a>
-              </div>
-              <div class="swiper-slide">
-                <a href="#" class="event-link"
-                  ><img src="img/event4.jpg" alt="이벤트" />
-                  <div class="event-link-title">
-                    KBS2 주말드라마 진짜가 나타났다
-                  </div>
-                  <div class="event-link-desc">
-                    에몬스가 제품(가구)협찬 합니다.
-                  </div>
-                </a>
-              </div>
-              <div class="swiper-slide">
-                <a href="#" class="event-link"
-                  ><img src="img/event5.jpg" alt="이벤트" />
-                  <div class="event-link-title">KBS 드라마 ‘비밀의 여자’</div>
-                  <div class="event-link-desc">
-                    에몬스가 제품(가구)협찬 합니다.
-                  </div>
-                </a>
-              </div>
-            </div>
+         <h2>놓칠 수 없는 이야기</h2>
+         <div class="swiper sw-event">
+          <div class="swiper-wrapper">
+           <div class="swiper-slide">
+            <a href="#" class="event-link"
+             ><img src="img/event1.jpg" alt="이벤트" />
+             <div class="event-link-title">에몬스 패밀리 세일</div>
+             <div class="event-link-desc">
+              에몬스 전제품 특별 할인전(일부 품목 제외)
+             </div></a
+            >
+           </div>
+           <div class="swiper-slide">
+            <a href="#" class="event-link"
+             ><img src="img/event2.jpg" alt="이벤트" />
+             <div class="event-link-title">KBS1 일일드라마 금이야옥이야</div>
+             <div class="event-link-desc">에몬스가 제품(가구)협찬 합니다.</div>
+            </a>
+           </div>
+           <div class="swiper-slide">
+            <a href="#" class="event-link"
+             ><img src="img/event3.jpg" alt="이벤트" />
+             <div class="event-link-title">우리집 요즘공간 #요즘 에몬스</div>
+             <div class="event-link-desc">에몬스가 제품(가구)협찬 합니다.</div>
+            </a>
+           </div>
+           <div class="swiper-slide">
+            <a href="#" class="event-link"
+             ><img src="img/event4.jpg" alt="이벤트" />
+             <div class="event-link-title">KBS2 주말드라마 진짜가 나타났다</div>
+             <div class="event-link-desc">에몬스가 제품(가구)협찬 합니다.</div>
+            </a>
+           </div>
+           <div class="swiper-slide">
+            <a href="#" class="event-link"
+             ><img src="img/event5.jpg" alt="이벤트" />
+             <div class="event-link-title">KBS 드라마 ‘비밀의 여자’</div>
+             <div class="event-link-desc">에몬스가 제품(가구)협찬 합니다.</div>
+            </a>
+           </div>
           </div>
-          <script>
-            new Swiper(".sw-event", {
-              slidesPerView: 3,
+         </div>
+         <script>
+          new Swiper(".sw-event", {
+           slidesPerView: 1,
+           slidesPerGroup: 1,
+           spaceBetween: 25,
+           speed: 2000,
+           loop: true,
+           autoplay: {
+            delay: 2000,
+            disableOnInteraction: false,
+           },
+           breakpoints: {
+            550: {
+              slidesPerView: 2,
               slidesPerGroup: 2,
               spaceBetween: 25,
-              speed: 1000,
-              loop: true,
-              autoplay: {
-                delay: 2000,
-                disableOnInteraction: false,
-              },
-            });
-          </script>
+            },
+            1000: {
+              slidesPerView: 3,
+              slidesPerGroup: 3,
+              spaceBetween: 25,
+            },
+           },
+          });
+         </script>
         </div>
-      </section>
+       </section>
       <!--// 이벤트 -->
       <!-- 갤러리 -->
       <section class="gallery">
