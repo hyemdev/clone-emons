@@ -34,17 +34,18 @@
   letter-spacing: -0.02;
   margin-top: 3px;
  }
+
  @media screen and (max-width: 1400px) {
   
- .sw-event{
+ .sw-event {
    /* width:100%; */
-   /* max-width: 1400px; */
-   padding: 0 30px;
-   width:100%,
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 30px;
+    overflow: hidden;
+  }
  }
- .sw-event .swiper-slide {
- }
- }
+ 
  
  @media screen and (max-width: 1000px) {
   .event > .inner > h2 {
