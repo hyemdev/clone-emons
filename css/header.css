@@ -490,19 +490,18 @@
   .header-mypage-list li {
     margin-left: 18px;
   }
-
+  .header-mainmenu {
+    height: 40px;
+  }
   .search {
-    display: inline-block;
-    /* position: absolute; */
+    /* display: inline-block; */
+    position: absolute;
     /* display: flex; */
-    position: relative;
-    top: -60px;
-    left: 0;
+    /* position: relative; */
+    top: 0;
+    left: 100%;
     float: right;
-    margin-left: 0;
-    padding-right: 30px;
-    /* margin-right: 30px; */
-    /* right: 0; */
+    margin-left: -250px;
   }
 
   .category-hover {
@@ -541,17 +540,37 @@
   .warm-hover:hover .sub-warmimg {
     /* left: 50px; */
     /* margin-left: 720px; */
-    position: absolute;
+    display: none;
+    /* position: absolute;
     right: 0;
     left: 0;
     margin-left: 0;
-    margin-right: 30px;
+    margin-right: 30px; */
   }
 }
 @media screen and (max-width: 1050px) {
   .dropdown-img {
     display: none;
   }
+  .category-hover {
+    font-size: 16px;
+    height: 60px;
+    top: 2px;
+    left: 0px;
+    margin-left: 25px;
+    margin-top: 7px;
+  }
+.header-submenu {
+  display: flex;
+  font-size: 16px;
+  width: 360px;
+  left: -50px;
+  padding: 10px 0;
+  justify-content: space-between;
+}
+.header-submenu li:last-child {
+  padding-right: 0px;
+}
 }
 
 @media screen and (max-width: 760px) {
@@ -573,7 +592,7 @@
     position: relative;
     font-size: 17px;
     width: 420px;
-    margin-left: 20px;
+    margin-left: 70px;
   }
   .header-submenu li {
     padding-right: 20px;
