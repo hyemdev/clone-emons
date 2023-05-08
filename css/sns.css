@@ -22,3 +22,13 @@
   height: 260px;
   border-radius: 10px;
 }
+.sns-bottom {
+  margin-top: 60px;
+}
+.sns-bottom img {
+  width: 45px;
+  height: 45px;
+  margin: 0 4.5px;
+  object-fit: cover;
+  opacity: 0.6;
+}
