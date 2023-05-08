@@ -417,17 +417,21 @@
          </div>
          <script>
           new Swiper(".sw-event", {
-           slidesPerView: 2,
-           slidesPerGroup: 2,
+           slidesPerView: 1,
+           slidesPerGroup: 1,
            spaceBetween: 25,
            speed: 2000,
            loop: true,
-           loopAdditionalSlides : 1,
            autoplay: {
             delay: 2000,
             disableOnInteraction: false,
            },
            breakpoints: {
+            550: {
+              slidesPerView: 2,
+              slidesPerGroup: 2,
+              spaceBetween: 25,
+            },
             1000: {
               slidesPerView: 3,
               slidesPerGroup: 3,

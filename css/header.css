@@ -530,23 +530,9 @@
     left: 20px;
     margin-left: 20px;
   }
-  .bed-hover:hover .sub-bedimg,
-  .mat-hover:hover .sub-matimg,
-  .closet-hover:hover .sub-closetimg,
-  .sofa-hover:hover .sub-sofaimg,
-  .kitc-hover:hover .sub-kitcimg,
-  .desk-hover:hover .sub-deskimg,
-  .kid-hover:hover .sub-kidimg,
-  .warm-hover:hover .sub-warmimg {
-    /* left: 50px; */
-    /* margin-left: 720px; */
-    display: none;
-    /* position: absolute;
-    right: 0;
-    left: 0;
-    margin-left: 0;
-    margin-right: 30px; */
-  }
+ .dropdown-img {
+  display: none;
+ }
 }
 @media screen and (max-width: 1050px) {
   .dropdown-img {
