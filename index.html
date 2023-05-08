@@ -23,6 +23,31 @@
   </head>
   <body>
     <div class="wrap">
+      <!-- 모바일용 하단메뉴 -->
+      <div class="mobile-ver">
+        <div class="mobile-menu">
+          <div class="mobile-m-group">
+            <a href="#" class="mobile-cate"><img src="img/mobile1.png" alt=""><p>카테고리</p></a>
+            <a href="#" class="mobile-search"><img src="img/mobile2.png" alt=""><p>검색</p></a>
+            <a href="#" class="mobile-home"><img src="img/mobile3.png" alt=""><p>홈</p></a>
+            <a href="#" class="mobile-mypage"><img src="img/mobile4.png" alt=""><p>마이페이지</p></a>
+            <a href="#" class="mobile-like"><img src="img/mobile5.png" alt=""><p>찜하기</p></a>
+          </div>
+        </div>
+        <div class="mobile-dropdown">
+          <div class="mobile-dropdown-title"><p>카테고리</p></div>
+          <ul>
+            <li><a href="#">침실가구</a></li>
+            <li><a href="#">매트리스</a></li>
+            <li><a href="#">붙박이장/옷장</a></li>
+            <li><a href="#">소파/거실가구</a></li>
+            <li><a href="#">식탁/주방가구</a></li>
+            <li><a href="#">서재/싱글룸</a></li>
+            <li><a href="#">자녀방</a></li>
+            <li><a href="#">온열 침대/소파</a></li>
+          </ul>
+        </div>
+    </div>
       <!-- 헤더 -->
       <header class="header">
         <div class="header-top">
@@ -202,6 +227,7 @@
           </div>
          </div>
         </nav>
+
         </header>
       <!--// 헤더 -->
 
@@ -405,6 +431,7 @@
             1000: {
               slidesPerView: 3,
               slidesPerGroup: 3,
+              spaceBetween: 25,
             },
            },
           });
