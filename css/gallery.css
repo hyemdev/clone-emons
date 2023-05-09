@@ -53,7 +53,7 @@
     width: 50vw;
     margin: 0 auto;
     min-width: 680px;
-    margin-bottom: 150px;
+    margin-bottom: 70px;
   }
   .gallery-bottom > div {
     width: 100%;
@@ -80,9 +80,6 @@
   }
 }
 @media screen and (max-width: 760px) {
-  .gallery-top {
-    margin-top: 70px;
-  }
   .btns {
     margin-bottom: 30px;
   }

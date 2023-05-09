@@ -1,7 +1,6 @@
 .review {
   margin-bottom: 150px;
   padding: 100px 0;
-  height: 845px;
   background: #f3f4f6;
   text-align: center;
 }
@@ -9,17 +8,11 @@
   display: inline-block;
   margin-bottom: 75px;
 }
-.sw-review {
-  min-width: 1400px;
-  margin: 0 auto;
-  position: relative;
-}
 .rv-slide {
-  width: 320px;
+  width: 100%;
   padding: 15px;
   background: #fff;
-  display: inline-block;
-  text-align: center;
+  display: block;
 }
 .review-img {
   width: 100%;
@@ -27,6 +20,9 @@
   border-radius: 10px;
   overflow: hidden;
   margin-bottom: 25px;
+}
+.review-img img {
+  width: 100%;
 }
 .review-info {
   text-align: left;
@@ -78,11 +74,11 @@
 .review-prod-info {
   float: left;
   text-align: left;
-  width: 205px;
+  width: calc(100% - 80px);
   padding-left: 15px;
 }
 .review-heart {
-  background: url("/img/reviewheart.svg") no-repeat;
+  background: url("/img/reviewheart.svg") no-repeat center;
   background-size: cover;
   margin-bottom: 9px;
   font-size: 0;
@@ -95,6 +91,9 @@
 .review-price {
   float: left;
   font-size: 13px;
+}
+.pricepd {
+  padding-top: 30px;
 }
 .review-price p {
   letter-spacing: -0.32px;
@@ -136,4 +135,27 @@
   transform: translate(0, 50%);
   padding-left: 25px;
   cursor: pointer;
+}
+@media screen and (max-width: 1400px) {
+  .review-price {
+    padding-top: 30px;
+    float: unset;
+  }
+  .review-subtitle {
+    -webkit-line-clamp: 1;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .review .inner h2 {
+    font-size: 22.4px;
+  }
+}
+@media screen and (max-width: 760px) {
+  .review {
+    margin-bottom: 70px;
+    padding: 40px 0;
+  }
+  .review .inner h2 {
+    padding-top: 30px;
+  }
 }

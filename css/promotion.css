@@ -78,6 +78,9 @@
   color: #282828;
 }
 @media screen and (max-width: 760px) {
+  .promotion .inner {
+    margin-bottom: 70px;
+  }
   .p-sw-prev {
     left: 6%;
   }
