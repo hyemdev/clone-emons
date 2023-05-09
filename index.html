@@ -748,10 +748,18 @@
           </div>
           <script>
             let promotionSwiper = new Swiper(".sw-promotion", {
-              slidesPerView: 3,
+              slidesPerView: 1,
               speed: 500,
               loop: true,
               touchRatio: 0,
+              breakpoints: {
+                760: {
+                  slidesPerView: 2,
+                },
+                1260: {
+                  slidesPerView: 3,
+                },
+              },
               autoplay: {
                 delay: 10000,
                 disableOnInteraction: false,
