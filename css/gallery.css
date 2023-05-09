@@ -1,6 +1,5 @@
 .gallery-top {
   text-align: center;
-  margin-top: 150px;
 }
 .btns {
   margin: 40px 0 50px 0;
@@ -21,21 +20,20 @@
   margin-right: 0;
 }
 .gallery-bottom {
-  height: 720px;
+  margin-bottom: 150px;
 }
 .gallery-bottom-left {
   width: 50%;
   max-width: 680px;
-  max-height: 720px;
   float: left;
 }
 .gallery-bottom-left img {
   overflow: hidden;
   border-radius: 8px;
+  width: 100%;
 }
 .gallery-bottom-right {
   width: 50%;
-  height: 720px;
   float: left;
   margin-left: 20px;
 }
@@ -44,9 +42,71 @@
   float: left;
   border-radius: 8px;
   overflow: hidden;
+  margin-bottom: 20px;
 }
 .gallery-bottom-right .mr {
   display: block;
   margin-right: 20px;
-  margin-bottom: 20px;
+}
+@media screen and (max-width: 1420px) {
+  .gallery-bottom {
+    width: 50vw;
+    margin: 0 auto;
+    min-width: 680px;
+    margin-bottom: 70px;
+  }
+  .gallery-bottom > div {
+    width: 100%;
+  }
+  .gallery-bottom-right {
+    margin-top: 15px;
+    margin-left: 0;
+  }
+  .gallery-bottom-right img {
+    max-width: 330px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .gallery-top h2 {
+    font-size: 22.4px;
+  }
+  .btns a {
+    width: 90px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    margin-right: 6px;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 760px) {
+  .btns {
+    margin-bottom: 30px;
+  }
+  .gallery-bottom {
+    min-width: 500px;
+  }
+  .gallery-bottom > div {
+    max-width: 500px;
+  }
+  .gallery-bottom-right a {
+    margin-bottom: 10px;
+  }
+  .gallery-bottom-right .mr {
+    margin-right: 10px;
+  }
+  .gallery-bottom-right img {
+    max-width: 245px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .gallery-bottom {
+    min-width: 340px;
+  }
+  .gallery-bottom > div {
+    max-width: 340px;
+  }
+  .gallery-bottom-right img {
+    max-width: 165px;
+  }
 }
