@@ -1,15 +1,35 @@
-.media {
-  margin-top: 170px;
-}
 .media .inner {
+  margin-bottom: 150px;
+}
+.media-info-mb {
+  display: none;
+  margin-bottom: 30px;
+}
+.media-info-mb > p {
+  display: block;
+  font-size: 16.8px;
+}
+.media-info-mb > span {
+  display: block;
+  margin-top: 10px;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -0.56px;
 }
 .media-video {
   position: relative;
-  width: 900px;
-  height: 510px;
+  max-width: 900px;
+  width: 100%;
+  height: 506px;
   float: left;
 }
 .media-video a {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
 }
 .media-video img {
   position: absolute;
@@ -20,18 +40,27 @@
   border-radius: 12px;
   overflow: hidden;
 }
+.videoplay {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 85px;
+  height: 85px;
+  background: url("../img/btn_video_play.png") no-repeat;
+}
 .media-short {
   display: flex;
   padding-left: 50px;
   flex-direction: column;
 }
-.media-short-info {
+.media-info-pc {
   padding: 20px 0 220px;
 }
-.media-short-info p {
+.media-info-pc > p {
   font-size: 20px;
 }
-.media-short-info span {
+.media-info-pc > span {
   display: inline-block;
   margin-top: 20px;
   font-size: 36px;
@@ -80,4 +109,31 @@
 }
 .sw-media .swiper-pagination-current {
   font-weight: bold;
+}
+@media screen and (max-width: 1400px) {
+  .media .inner {
+    padding: 0 20px;
+    max-width: 900px;
+  }
+  .media-info-mb {
+    display: block;
+  }
+  .media-video {
+    float: unset;
+    width: 100%;
+    height: 0;
+    padding-top: 56.25%;
+  }
+  .media-info-pc {
+    display: none;
+  }
+  .media-short {
+    padding-left: 0;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 760px) {
+  .media .inner {
+    margin-bottom: 70px;
+  }
 }

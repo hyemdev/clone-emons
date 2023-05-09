@@ -1,5 +1,5 @@
-.promotion {
-  margin-top: 150px;
+.promotion .inner {
+  margin-bottom: 150px;
 }
 .sw-bt {
   position: absolute;
@@ -76,4 +76,15 @@
 .pm-slide:hover .viewbox {
   background: #fff;
   color: #282828;
+}
+@media screen and (max-width: 760px) {
+  .promotion .inner {
+    margin-bottom: 70px;
+  }
+  .p-sw-prev {
+    left: 6%;
+  }
+  .p-sw-next {
+    right: 6%;
+  }
 }

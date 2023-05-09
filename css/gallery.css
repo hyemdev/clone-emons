@@ -1,6 +1,5 @@
 .gallery-top {
   text-align: center;
-  margin-top: 150px;
 }
 .btns {
   margin: 40px 0 50px 0;
@@ -21,6 +20,7 @@
   margin-right: 0;
 }
 .gallery-bottom {
+  margin-bottom: 150px;
 }
 .gallery-bottom-left {
   width: 50%;
@@ -48,11 +48,12 @@
   display: block;
   margin-right: 20px;
 }
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1420px) {
   .gallery-bottom {
     width: 50vw;
     margin: 0 auto;
     min-width: 680px;
+    margin-bottom: 70px;
   }
   .gallery-bottom > div {
     width: 100%;
@@ -79,9 +80,6 @@
   }
 }
 @media screen and (max-width: 760px) {
-  .gallery-top {
-    margin-top: 70px;
-  }
   .btns {
     margin-bottom: 30px;
   }
