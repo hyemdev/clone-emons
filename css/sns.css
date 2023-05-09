@@ -15,7 +15,7 @@
   display: flex;
   justify-content: center;
   gap: 25px;
-  max-width: 1400px;
+  width: 100%;
 }
 .sns-middle a {
   display: block;
@@ -65,5 +65,31 @@
 @media screen and (max-width: 760px) {
   .sns-middle {
     flex-wrap: wrap;
+    justify-content: center;
+  }
+  .sns-middle a {
+    max-width: 240px;
+    max-height: 240px;
+  }
+  .sns-middle a:last-child {
+    display: none;
+  }
+}
+@media screen and (max-width: 560px) {
+  .sns-middle {
+    gap: 10px;
+  }
+  .sns-middle a {
+    max-width: 190px;
+    max-height: 190px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .sns-middle {
+    gap: 5px;
+  }
+  .sns-middle a {
+    max-width: 145px;
+    max-height: 145px;
   }
 }
