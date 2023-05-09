@@ -1,5 +1,4 @@
 .product {
-  /* max-width: 1400px; */
   margin-bottom: 150px;
 }
 .product-list {
@@ -9,11 +8,6 @@
   justify-content: space-between;
 }
 .product-list li {
-  /* float: left; */
-  /* margin-right: 40px; */
-}
-.product-list > li:last-child {
-  /* margin-right: 0; */
 }
 
 .product-list li img {
@@ -41,8 +35,8 @@
   .product-list li {
     float: left;
     margin: 0 20px 35px 20px;
-    }
-
+  }
+}
 @media screen and (max-width: 700px) {
   .product-list {
     position: relative;

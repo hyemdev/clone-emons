@@ -44,9 +44,30 @@
   cursor: pointer;
 }
 
-.swiper-scrollbar {
+/* .swiper-scrollbar {
   background: #fff;
+} */
+
+.visual-slide .swiper-pagination {
+  bottom: 40px;
 }
+.visual-slide .swiper-pagination-bullet {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 0;
+  margin: 0px;
+  width: 100px;
+  height: 3px;
+
+}
+.visual-slide .swiper-pagination-bullet-active {  
+  background: rgba(255, 255, 255, 1);
+  margin: 0px;
+  height: 5px;
+  transform: translateY(1px);
+
+  
+}
+
 @media screen and (max-width: 1400px) {
 }
 @media screen and (max-width: 760px) {
