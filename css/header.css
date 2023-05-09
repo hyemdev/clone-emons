@@ -1,77 +1,6 @@
-/* 모바일용 하단메뉴 */
-.mobile-menu {
-  display: none;
-  position: fixed;
-  width: 100%;
-  height: 55px;
-  bottom: 0;
-  left: 0;
-  background: #f7f7f7;
-  z-index: 99999;
-}
-.mobile-m-group {
-  display: flex;
-  margin: 10px 30px 0 30px;
-  justify-content: space-around;
-  align-content: center;
-}
-.mobile-m-group img {
-  width: 23px;
-  height: 23px;
-  margin: 0 10px;
-  object-fit: cover;
-}
-.mobile-m-group p {
-  display: block;
-  font-size: 12px;
-  color: #222;
-  margin: 5px 0;
-  text-align: center;
-}
-.mobile-dropdown {
-  display: none;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background: #fff;
-  z-index: 999;
-}
-.mobile-dropdown-title {
-  width: 100%;
-  padding: 20px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2) ;
-}
-
-.mobile-dropdown-title > p {
-  font-size: 17px;
-  font-weight: 700;
-  color: #333;
-  line-height: 24px;
-}
-
-.mobile-dropdown ul {
-  padding: 20px;
-  margin-top: 10px;
-}
-.mobile-dropdown li {
-  height: 40px;
-}
-.mobile-dropdown li > a {
-  font-size: 14px;
-  font-weight: 700;
-  color: #333;
-}
-.mobile-cate:hover .mobile-dropdown {
-  display: block;
-}
-
 /* 헤더상단 */
 .header {
-  /* position: absolute; */
   position: relative;
-  /* margin-bottom: 150px; */
 }
 
 .header-top {
@@ -560,10 +489,6 @@
 }
 
 @media screen and (max-width: 760px) {
-  .mobile-menu {
-    display: block;
-  }
-
   .header {
     position: relative;
   }
