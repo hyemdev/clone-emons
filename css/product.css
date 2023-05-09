@@ -32,10 +32,6 @@
 
 @media screen and (max-width: 1400px) {
   .product-list {
-    /* position: relative; */
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-    /* justify-content: center; */
     width: 100%;
     max-width: 700px;
     height: 100%;
@@ -44,21 +40,16 @@
   }
   .product-list li {
     float: left;
-    margin-bottom: 35px;
-    margin-right: 40px;
-  }
-  .product-list li:nth-child(4),
-  .product-list li:nth-child(8) {
-    margin-right: 0;
-  }
-}
+    margin: 0 20px 35px 20px;
+    }
+
 @media screen and (max-width: 700px) {
   .product-list {
     position: relative;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    max-width: 400px;
+    max-width: 480px;
     height: 100%;
   }
   .product-list li {

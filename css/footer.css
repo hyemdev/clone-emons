@@ -2,10 +2,13 @@
   position: relative;
   width: 100%;
   height: 600px;
-  border-top: 1px solid #f0f0f0;
-  padding: 100px 20px 30px ;
-  padding-bottom: 30px;
   background: #fafafa;
+  padding: 100px 20px 30px;
+  border-top: 1px solid #f0f0f0;
+  padding-bottom: 30px;
+}
+.footer-top-call {
+  height: 200px;
 }
 .call {
   display: flex;
@@ -22,18 +25,24 @@
   letter-spacing: -0.6px;
   line-height: 25px;
 }
+
 .subcall {
+  color: #757575;
   margin-top: 55px;
   line-height: 26px;
-  color: #757575;
+  white-space: nowrap;
+}
+.subcall-list-left,
+.subcall-list-right {
+  width: 310px;
+  float: left;
 }
 .list-subtitle {
-  display: inline-block;
   width: 110px;
 }
 .list-number {
-  display: inline-block;
-  width: 220px;
+  width: 200px;
+  margin-left: 20px;
 }
 
 .footer-sns {
@@ -41,12 +50,10 @@
 }
 .sns-btns {
   display: flex;
-  justify-content: space-between;
   width: 275px;
+  justify-content: space-between;
 }
-.footerlogo {
-  margin-top: 70px;
-}
+
 .footerlogo img {
   max-width: 130px;
   height: 30px;
@@ -55,6 +62,7 @@
   position: relative;
   margin-top: 20px;
 }
+
 .siteinfo-list li {
   float: left;
   margin-right: 30px;
@@ -67,9 +75,9 @@
   font-weight: 700;
 }
 .subsiteinfo {
-  margin-top: 20px;
   font-size: 14px;
   color: #757575;
+  margin-top: 20px;
   line-height: 25px;
 }
 .subsiteinfo li {
@@ -86,15 +94,15 @@
   padding: 1px 6px 3px;
   margin-left: 5px;
 }
+
 .copy {
+  font-size: 12px;
+  color: rgb(85, 85, 85);
   margin-top: 50px;
   margin-bottom: 20px;
-  font-size: 12px;
   line-height: 12px;
   font-family: "NanumGhotic";
-  color: rgb(85, 85, 85);
 }
-
 
 .familysite {
   position: absolute;
@@ -102,33 +110,33 @@
   right: 0;
 }
 select {
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  appearance: none;
-  
-  height: 60px;
-  width: 290px;
-  font-family: "noto sans kr";
-  font-weight: 300;
   font-size: 12px;
-  line-height: 60px;
+  font-weight: 300;
+  width: 290px;
+
+  height: 60px;
 
   background: url("../img/selectbt.jpg") calc(100% - 30px) center no-repeat;
   background: #f6f6f6;
-  padding: 0 30px;
-  margin: 0;
 
   border: 1px solid #e0e0e0;
+  margin: 0;
+  padding: 0 30px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  font-family: "noto sans kr";
+  line-height: 60px;
   cursor: pointer;
 }
 select:hover {
-  background: #FFF;
+  background: #fff;
 }
 
 select:focus {
+  color: #222;
   border-color: #aaa;
   box-shadow: 0;
-  color: #222;
   outline: none;
 }
 select:disabled {
@@ -140,12 +148,9 @@ select > option {
   padding: 5px 0;
 }
 
-
-
-
-
-@media screen and (max-width:1000px) {
+@media screen and (max-width: 1000px) {
   .footer {
+    height: 850px;
     padding: 70px 20px 120px;
   }
   .subcall {
@@ -153,56 +158,56 @@ select > option {
     line-height: 26px;
   }
   .footerlogo {
-    margin-top: 50px;
+    margin-top: 10px;
   }
 
-.subsiteinfo {
-  display: block;
-  position: absolute;
-  top: -30px;
-  left: 0;
-}
-.subsiteinfo li:nth-child(3) {
-  float: left;
-}
-.copy {
-  position: absolute;
-  top: 10px;
-  left: 0;
-}
-.siteinfo {
-  position: absolute;
-  top: 100px;
-  left: 0;
-}
-
-.siteinfo-list li {
-  float: none;
-  padding: 9px 0;
-}
-
-.footer-top-sosial {
-    width: 100%;
+  .subsiteinfo {
+    display: block;
     position: absolute;
+    top: -30px;
+    left: 0;
+  }
+  .subsiteinfo li:nth-child(3) {
+    float: left;
+  }
+  .copy {
+    position: absolute;
+    top: 10px;
+    left: 0;
+  }
+  .siteinfo {
+    position: absolute;
+    top: 100px;
+    left: 0;
+  }
+
+  .siteinfo-list li {
+    padding: 9px 0;
+    float: none;
+  }
+
+  .footer-top-sosial {
+    display: block;
+    position: absolute;
+    width: 100%;
     top: 480px;
     left: 0;
-    display: block;
   }
   .familysite {
-  position: relative;
-  display: block;
-  width: 100%;
-  padding: 0 30px;
-  margin-top: 60px;
+    display: block;
+    position: relative;
+    width: 100%;
+    padding: 0 10px;
+    margin-top: 60px;
   }
   select {
     width: 100%;
-}
+  }
   .footer-sns {
     display: flex;
+    width: 100%;
     justify-content: center;
     flex-wrap: wrap;
-    width: 100%;
     margin-top: 30px;
   }
   .sns-btns img {
@@ -212,7 +217,13 @@ select > option {
   }
 }
 
-@media screen and (max-width:640px) {
+@media screen and (max-width: 760px) {
+  .subcall-list-left,
+  .subcall-list-right {
+    float: none;
+  }
+}
+@media screen and (max-width: 660px) {
   .footer {
     height: 950px;
   }
@@ -226,11 +237,11 @@ select > option {
     top: 120px;
     left: 0;
   }
-.footer-top-sosial {
-    width: 100%;
+  .footer-top-sosial {
+    display: block;
     position: absolute;
+    width: 100%;
     top: 560px;
     left: 0;
-    display: block;
   }
 }
