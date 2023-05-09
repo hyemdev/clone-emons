@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="css/reset.css" />
     <script src="js/prefixfree.min.js"></script>
     <script src="js/respond.min.js"></script>
+
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
@@ -66,6 +67,14 @@
           </ul>
         </div>
       </div>
+      <!-- 플라잉배너 -->
+      <div class="fix-banner">
+        <a href="#"
+          ><button class="gotop">매장<br />찾기</button></a
+        >
+        <a href="#"><img src="img/Arrow_top_fly.png" alt="배너" /></a>
+      </div>
+      <!--//플라잉 배너  -->
       <!-- 헤더 -->
       <header class="header">
         <div class="header-top">
@@ -93,9 +102,7 @@
             <a href="#" class="logo-1400px"
               ><img src="img/emons_logo.svg" alt="로고"
             /></a>
-            <div class="logo-1400px-arr">
-              <a href="#"><img src="img/logo_arr.png" alt="로고메뉴" /></a>
-            </div>
+            <div class="logo-1400px-arr"><a href="#"></a></div>
           </div>
         </div>
         <div class="header-logo">
@@ -299,7 +306,6 @@
         </nav>
       </header>
       <!--// 헤더 -->
-
       <!-- 비주얼 -->
       <section class="visual">
         <div class="visual-slide">
@@ -350,14 +356,15 @@
             </div>
           </div>
           <!-- pagination -->
-          <div class="swiper-pagination"></div>
-          <!-- 스크롤바 -->
-          <div class="swiper-scrollbar"></div>
+          <div class="visual-slide swiper-pagination"></div>
+          <!-- 스크롤바
+          <div class="swiper-scrollbar"></div> -->
           <!-- visual Swiper -->
           <script>
             var swiper = new Swiper(".sw-visual", {
               slidesPerView: 1,
               speed: 1000,
+              effect: "fade",
               loop: true,
               autoplay: {
                 delay: 2500,
@@ -368,14 +375,14 @@
                 nextEl: ".visual .v-sw-next",
                 prevEl: ".visual .v-sw-prev",
               },
-              scrollbar: {
-                el: ".swiper-scrollbar",
-              },
+              //  scrollbar: {
+              //   el: ".swiper-scrollbar",
+              //  },
 
-              // pagination: {
-              //   el: ".swiper-pagination",
-              //   clickable: true,
-              // },
+              pagination: {
+                el: ".visual-slide .swiper-pagination",
+                clickable: true,
+              },
             });
           </script>
         </div>
@@ -442,87 +449,138 @@
       <!-- 이벤트 -->
       <section class="event">
         <div class="inner">
-          <h2>놓칠 수 없는 이야기</h2>
-          <div class="swiper sw-event">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <a href="#" class="event-link"
-                  ><img src="img/event1.jpg" alt="이벤트" />
-                  <div class="event-link-title">에몬스 패밀리 세일</div>
-                  <div class="event-link-desc">
-                    에몬스 전제품 특별 할인전(일부 품목 제외)
-                  </div></a
-                >
-              </div>
-              <div class="swiper-slide">
-                <a href="#" class="event-link"
-                  ><img src="img/event2.jpg" alt="이벤트" />
-                  <div class="event-link-title">
-                    KBS1 일일드라마 금이야옥이야
-                  </div>
-                  <div class="event-link-desc">
-                    에몬스가 제품(가구)협찬 합니다.
-                  </div>
-                </a>
-              </div>
-              <div class="swiper-slide">
-                <a href="#" class="event-link"
-                  ><img src="img/event3.jpg" alt="이벤트" />
-                  <div class="event-link-title">
-                    우리집 요즘공간 #요즘 에몬스
-                  </div>
-                  <div class="event-link-desc">
-                    에몬스가 제품(가구)협찬 합니다.
-                  </div>
-                </a>
-              </div>
-              <div class="swiper-slide">
-                <a href="#" class="event-link"
-                  ><img src="img/event4.jpg" alt="이벤트" />
-                  <div class="event-link-title">
-                    KBS2 주말드라마 진짜가 나타났다
-                  </div>
-                  <div class="event-link-desc">
-                    에몬스가 제품(가구)협찬 합니다.
-                  </div>
-                </a>
-              </div>
-              <div class="swiper-slide">
-                <a href="#" class="event-link"
-                  ><img src="img/event5.jpg" alt="이벤트" />
-                  <div class="event-link-title">KBS 드라마 ‘비밀의 여자’</div>
-                  <div class="event-link-desc">
-                    에몬스가 제품(가구)협찬 합니다.
-                  </div>
-                </a>
+          <div class="visual-slide">
+            <h2>놓칠 수 없는 이야기</h2>
+            <div class="swiper sw-event">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a href="#" class="event-link">
+                    <img src="img/event1.jpg" alt="이벤트" />
+                    <p class="event-link-title">에몬스 패밀리 세일</p>
+                    <p class="event-link-desc">
+                      에몬스 전제품 특별 할인전(일부 품목 제외)
+                    </p></a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#" class="event-link">
+                    <img src="img/event2.jpg" alt="이벤트" />
+                    <p class="event-link-title">
+                      KBS1 일일드라마 금이야옥이야
+                    </p>
+                    <p class="event-link-desc">
+                      에몬스가 제품(가구)협찬 합니다.
+                    </p>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#" class="event-link">
+                    <img src="img/event3.jpg" alt="이벤트" />
+                    <p class="event-link-title">
+                      우리집 요즘공간 #요즘 에몬스
+                    </p>
+                    <p class="event-link-desc">
+                      에몬스가 제품(가구)협찬 합니다.
+                    </p>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#" class="event-link">
+                    <img src="img/event4.jpg" alt="이벤트" />
+                    <p class="event-link-title">
+                      KBS2 주말드라마 진짜가 나타났다
+                    </p>
+                    <p class="event-link-desc">
+                      에몬스가 제품(가구)협찬 합니다.
+                    </p>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#" class="event-link"
+                    ><img src="img/event5.jpg" alt="이벤트" />
+                    <p class="event-link-title">KBS 드라마 ‘비밀의 여자’</p>
+                    <p class="event-link-desc">
+                      에몬스가 제품(가구)협찬 합니다.
+                    </p>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#" class="event-link">
+                    <img src="img/event1.jpg" alt="이벤트" />
+                    <p class="event-link-title">에몬스 패밀리 세일</p>
+                    <p class="event-link-desc">
+                      에몬스 전제품 특별 할인전(일부 품목 제외)
+                    </p></a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#" class="event-link">
+                    <img src="img/event2.jpg" alt="이벤트" />
+                    <p class="event-link-title">
+                      KBS1 일일드라마 금이야옥이야
+                    </p>
+                    <p class="event-link-desc">
+                      에몬스가 제품(가구)협찬 합니다.
+                    </p>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#" class="event-link">
+                    <img src="img/event3.jpg" alt="이벤트" />
+                    <p class="event-link-title">
+                      우리집 요즘공간 #요즘 에몬스
+                    </p>
+                    <p class="event-link-desc">
+                      에몬스가 제품(가구)협찬 합니다.
+                    </p>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#" class="event-link">
+                    <img src="img/event4.jpg" alt="이벤트" />
+                    <p class="event-link-title">
+                      KBS2 주말드라마 진짜가 나타났다
+                    </p>
+                    <p class="event-link-desc">
+                      에몬스가 제품(가구)협찬 합니다.
+                    </p>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#" class="event-link"
+                    ><img src="img/event5.jpg" alt="이벤트" />
+                    <p class="event-link-title">KBS 드라마 ‘비밀의 여자’</p>
+                    <p class="event-link-desc">
+                      에몬스가 제품(가구)협찬 합니다.
+                    </p>
+                  </a>
+                </div>
               </div>
             </div>
+            <script>
+              new Swiper(".sw-event", {
+                slidesPerView: 3,
+                slidesPerGroup: 3,
+                spaceBetween: 25,
+                speed: 2000,
+                loop: true,
+                autoplay: {
+                  delay: 2000,
+                  disableOnInteraction: false,
+                },
+                // breakpoints: {
+                // 550: {
+                //   slidesPerView: 2,
+                //   slidesPerGroup: 2,
+                //   spaceBetween: 25,
+                //   },
+                // 1000: {
+                //   slidesPerView: 3,
+                //   slidesPerGroup: 3,
+                //   spaceBetween: 25,
+                //   },
+                //},
+              });
+            </script>
           </div>
-          <script>
-            new Swiper(".sw-event", {
-              slidesPerView: 1,
-              slidesPerGroup: 1,
-              spaceBetween: 25,
-              speed: 2000,
-              loop: true,
-              autoplay: {
-                delay: 2000,
-                disableOnInteraction: false,
-              },
-              breakpoints: {
-                550: {
-                  slidesPerView: 2,
-                  slidesPerGroup: 2,
-                  spaceBetween: 25,
-                },
-                1000: {
-                  slidesPerView: 3,
-                  slidesPerGroup: 3,
-                  spaceBetween: 25,
-                },
-              },
-            });
-          </script>
         </div>
       </section>
       <!--// 이벤트 -->
@@ -558,6 +616,7 @@
         </div>
       </section>
       <!--// 갤러리 -->
+
       <!-- 미디어 -->
       <section class="media">
         <div class="inner clearfix">
@@ -1004,6 +1063,7 @@
         </div>
       </section>
       <!--// sns -->
+
       <!-- 노티스 -->
       <section class="notice">
         <div class="notice-shop clearfix">
@@ -1078,6 +1138,7 @@
         </div>
       </section>
       <!--// 노티스 -->
+
       <!-- 푸터 -->
       <footer class="footer">
         <div class="inner">
@@ -1089,44 +1150,57 @@
               </div>
               <div class="subcall">
                 <h4>수신자 부담전화:</h4>
-                <div class="subcall-list">
-                  <span class="list-subtitle">대리점 가구전용</span>
-                  <em class="list-number">080-272-2233</em>
-                  <span class="list-subtitle">인천 본사전시장</span>
-                  <em class="list-number">032-811-0111</em>
-                  <br />
-                  <span class="list-subtitle">인터넷 가구전용</span>
-                  <em class="list-number">080-800-8011</em>
-                  <span class="list-subtitle">대리점 개설문의</span>
-                  <em class="list-number">032-250-0125</em>
+                <div class="subcall-list-left clearfix">
+                  <div class="list-subtitle">
+                    대리점 가구전용<span class="list-number">080-272-2233</span>
+                  </div>
+                  <div class="list-subtitle">
+                    인천 본사전시장<span class="list-number">032-811-0111</span>
+                  </div>
+                </div>
+                <div class="subcall-list-right">
+                  <div class="list-subtitle">
+                    인터넷 가구전용<span class="list-number">080-800-8011</span>
+                  </div>
+                  <div class="list-subtitle">
+                    대리점 개설문의<span class="list-number">032-250-0125</span>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="footer-top-sosial">
-              <div class="familysite">FAMILY SITE<i></i></div>
-              <div class="footer-sns">
-                <ul class="sns-btns">
-                  <li>
-                    <a href="#"
-                      ><img src="img/ftinsta.png" alt="인스타그램"
-                    /></a>
-                  </li>
-                  <li>
-                    <a href="#"><img src="img/ftyoutube.png" alt="유튜브" /></a>
-                  </li>
-                  <li>
-                    <a href="#"><img src="img/ftblog.png" alt="블로그" /></a>
-                  </li>
-                  <li>
-                    <a href="#"
-                      ><img src="img/ftfacebook.png" alt="페이스북"
-                    /></a>
-                  </li>
-                  <li>
-                    <a href="#"><img src="img/ftpost.png" alt="포스트" /></a>
-                  </li>
-                </ul>
-              </div>
+          </div>
+          <div class="footer-top-sosial">
+            <div class="familysite">
+              <form>
+                <label for="fmlysite"></label>
+                <select id="shortlink">
+                  <option value="">FAMILY SITE</option>
+                  <option value="ems-gagu">에몬스가구</option>
+                  <option value="ems-online">에몬스 온라인몰</option>
+                  <option value="ems-sale">에몬스 특판</option>
+                </select>
+              </form>
+            </div>
+            <div class="footer-sns clearfix">
+              <ul class="sns-btns">
+                <li>
+                  <a href="#"><img src="img/ftinsta.png" alt="인스타그램" /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="img/ftyoutube.png" alt="유튜브" /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="img/ftblog.png" alt="블로그" /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="img/ftfacebook.png" alt="페이스북"
+                  /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="img/ftpost.png" alt="포스트" /></a>
+                </li>
+              </ul>
             </div>
           </div>
           <div class="footer-bottom">

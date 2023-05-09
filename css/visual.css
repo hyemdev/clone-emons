@@ -1,130 +1,134 @@
 .visual {
   width: 100%;
   margin-bottom: 150px;
- }
- 
- .visual-slide {
+}
+
+.visual-slide {
   display: block;
   position: relative;
- }
- .sw-visual a img {
+}
+.sw-visual a img {
   width: 100%;
   height: auto;
- }
- 
- .v-sw-prev {
+}
+
+.v-sw-prev {
   position: absolute;
   font-size: 0;
-  top: 50%;
-  left: 7%;
   width: 50px;
   height: 50px;
+  top: 50%;
+  left: 7%;
   /* 버튼 중앙에 위치하기 */
   background: url("../img/main_slide_arr.png") no-repeat center;
+  border: 0;
   background-position: 0%;
   transform: translate(50%, -50%);
   z-index: 9;
-  border: 0;
   cursor: pointer;
- }
- 
- .v-sw-next {
+}
+
+.v-sw-next {
   position: absolute;
   font-size: 0;
-  top: 50%;
-  right: 7%;
   width: 50px;
   height: 50px;
+  top: 50%;
+  right: 7%;
   /* 버튼 중앙에 위치하기 */
   background: url("../img/main_slide_arr.png") no-repeat center;
+  border: 0;
   background-position: 100%;
   transform: translate(50%, -50%);
   z-index: 9;
-  border: 0;
   cursor: pointer;
- }
- 
- /* .swiper-pagination .swiper-pagination-bullet { 
-     width: 100px;
-     height: 3px;
-     opacity: 0.5;
-     border-radius: 0;
-     background: #fff;
-   }
-   .swiper-pagination .swiper-pagination-bullet-active {
-     width: 100px;
-     height: 5px;
-     opacity: 1;
-     border-radius: 0;
-     background: #fff;
-   }  */
- 
- .swiper-scrollbar {
+}
+
+/* .swiper-scrollbar {
   background: #fff;
- }
- @media screen and (max-width: 1400px) {
- 
- }
- @media screen and (max-width: 760px) {
+} */
+
+.visual-slide .swiper-pagination {
+  bottom: 40px;
+}
+.visual-slide .swiper-pagination-bullet {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 0;
+  margin: 0px;
+  width: 100px;
+  height: 3px;
+
+}
+.visual-slide .swiper-pagination-bullet-active {  
+  background: rgba(255, 255, 255, 1);
+  margin: 0px;
+  height: 5px;
+  transform: translateY(1px);
+
+  
+}
+
+@media screen and (max-width: 1400px) {
+}
+@media screen and (max-width: 760px) {
   .visual-slide {
-   width: 100%;
-   height: 125vw;
+    width: 100%;
+    height: 125vw;
   }
   .sw-visual img {
-   display: none;
+    display: none;
   }
   .visual-resp-1 {
-   width: 100%;
-   height: 125vw;
-   background: url(../img/visual-resp-1.jpeg) no-repeat center;
-   background-size: cover;
+    width: 100%;
+    height: 125vw;
+    background: url(../img/visual-resp-1.jpeg) no-repeat center;
+    background-size: cover;
   }
   .visual-resp-2 {
-   width: 100%;
-   height: 125vw;
-   background: url(../img/visual-resp-2.jpeg) no-repeat center;
-   background-size: cover;
+    width: 100%;
+    height: 125vw;
+    background: url(../img/visual-resp-2.jpeg) no-repeat center;
+    background-size: cover;
   }
   .visual-resp-3 {
-   width: 100%;
-   height: 125vw;
-   background: url(../img/visual-resp-3.jpeg) no-repeat center;
-   background-size: cover;
+    width: 100%;
+    height: 125vw;
+    background: url(../img/visual-resp-3.jpeg) no-repeat center;
+    background-size: cover;
   }
   .visual-resp-4 {
-   width: 100%;
-   height: 125vw;
-   background: url(../img/visual-resp-4.jpeg) no-repeat center;
-   background-size: cover;
+    width: 100%;
+    height: 125vw;
+    background: url(../img/visual-resp-4.jpeg) no-repeat center;
+    background-size: cover;
   }
   .visual-resp-5 {
-   width: 100%;
-   height: 125vw;
-   background: url(../img/visual-resp-5.jpeg) no-repeat center;
-   background-size: cover;
+    width: 100%;
+    height: 125vw;
+    background: url(../img/visual-resp-5.jpeg) no-repeat center;
+    background-size: cover;
   }
   .visual-resp-6 {
-   width: 100%;
-   height: 125vw;
-   background: url(../img/visual-resp-6.jpeg) no-repeat center;
-   background-size: cover;
+    width: 100%;
+    height: 125vw;
+    background: url(../img/visual-resp-6.jpeg) no-repeat center;
+    background-size: cover;
   }
   .visual-resp-7 {
-   width: 100%;
-   height: 125vw;
-   background: url(../img/visual-resp-7.gif) no-repeat center;
-   background-size: cover;
+    width: 100%;
+    height: 125vw;
+    background: url(../img/visual-resp-7.gif) no-repeat center;
+    background-size: cover;
   }
   .visual-resp-8 {
-   width: 100%;
-   height: 125vw;
-   background: url(../img/visual-resp-8.jpeg) no-repeat center;
-   background-size: cover;
+    width: 100%;
+    height: 125vw;
+    background: url(../img/visual-resp-8.jpeg) no-repeat center;
+    background-size: cover;
   }
- 
+
   .v-sw-next,
   .v-sw-prev {
-   display: none;
+    display: none;
   }
- }
- 
+}
