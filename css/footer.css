@@ -113,12 +113,9 @@ select {
   font-size: 12px;
   font-weight: 300;
   width: 290px;
-
   height: 60px;
-
   background: url("../img/selectbt.jpg") calc(100% - 30px) center no-repeat;
   background: #f6f6f6;
-
   border: 1px solid #e0e0e0;
   margin: 0;
   padding: 0 30px;
