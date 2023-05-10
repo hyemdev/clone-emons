@@ -137,6 +137,9 @@
   cursor: pointer;
 }
 @media screen and (max-width: 1400px) {
+  .review .inner {
+    padding: 0 20px;
+  }
   .review-price {
     padding-top: 30px;
     float: unset;
@@ -146,6 +149,9 @@
   }
 }
 @media screen and (max-width: 1000px) {
+  .review {
+    padding: 70px 0;
+  }
   .review .inner h2 {
     font-size: 22.4px;
   }
