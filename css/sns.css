@@ -66,6 +66,9 @@
   }
 }
 @media screen and (max-width: 760px) {
+  .sns .inner {
+    margin-bottom: 70px;
+  }
   .sns-middle {
     flex-wrap: wrap;
     justify-content: center;

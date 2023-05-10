@@ -16,7 +16,7 @@
   width: 55px;
   height: 70px;
   margin-bottom: 15px;
-  background:#14008c;
+  background: #14008c;
   background-size: 22px 22px;
   padding: 21px 15px;
 }
@@ -29,10 +29,10 @@
   text-align: center;
   border-radius: 26px 26px 0 0;
   border: 0;
-  background:#14008c;
+  background: #14008c;
   color: #fff;
+  cursor: pointer;
 }
-
 
 /* 헤더상단 */
 .header {
@@ -51,7 +51,6 @@
   top: 5px;
   left: 50%;
   margin-left: -700px;
-  
 }
 .header-top-link a {
   line-height: 1.3;
@@ -135,7 +134,7 @@
   height: 18px;
   top: 7px;
   left: 180px;
-  background: url('../img/logo_arr.png') no-repeat center;
+  background: url("../img/logo_arr.png") no-repeat center;
   background-position: 1px 4px;
   border: 2px solid rgba(0, 0, 0, 0.2);
   border-radius: 50%;
@@ -407,8 +406,6 @@
   cursor: pointer;
 }
 
-
-
 /* 반응형 */
 @media screen and (max-width: 1400px) {
   .header-top {
@@ -484,14 +481,14 @@
     margin-left: 25px;
     margin-top: 7px;
   }
-.header-submenu {
-  display: flex;
-  font-size: 16px;
-  width: 360px;
-  left: -50px;
-  padding: 10px 0;
-  justify-content: space-between;
-}
+  .header-submenu {
+    display: flex;
+    font-size: 16px;
+    width: 360px;
+    left: -50px;
+    padding: 10px 0;
+    justify-content: space-between;
+  }
   .header-submenu li:last-child {
     padding-right: 0px;
   }
