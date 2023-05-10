@@ -5,22 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
-    />
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
     <!-- favicon -->
     <link rel="icon" href="img/favicon.ico" />
     <title>에몬스</title>
+
+    <!-- SEO 적용 -->
+    <meta
+      name="description"
+      content="국내 가구, 가구, 에몬스, 에몬스가구, FURNITURE, 침대, 패밀리침대, 소파, 옷장, 식탁, 주방가구, 서재, 책장, 책상, 키즈가구, 서랍장, 매트리스" />
+    <meta
+      name="keywords"
+      content="국내 가구, 가구, 에몬스, 에몬스가구, FURNITURE, 침대, 패밀리침대, 소파, 옷장, 식탁, 주방가구, 서재, 책장, 책상, 키즈가구, 서랍장, 매트리스" />
+    <meta property="og:title" content="에몬스가구" />
+    <meta
+      property="og:description"
+      content="국내 가구, 가구, 에몬스, 에몬스가구, FURNITURE, 침대, 패밀리침대, 소파, 옷장, 식탁, 주방가구, 서재, 책장, 책상, 키즈가구, 서랍장, 매트리스   " />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="https://www.emons.co.kr/" />
+    <meta property="og:site_name" content="에몬스" />
+    <meta property="og:type" content="website" />
+
     <!--[if lt IE 9]>
       <script src="js/html5shiv.js"></script>
     <![endif]-->
     <link rel="stylesheet" href="css/reset.css" />
     <script src="js/prefixfree.min.js"></script>
     <script src="js/respond.min.js"></script>
+    <!-- js적용 -->
+    <script src="js/mobile.js"></script>
 
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
-    />
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="css/style.css" />
@@ -32,49 +49,67 @@
         <div class="mobile-menu">
           <div class="mobile-m-group">
             <a href="#" class="mobile-cate"
-              ><img src="img/mobile1.png" alt="" />
+              ><img src="img/mobile1.png" alt="m카테" />
               <p>카테고리</p></a
             >
             <a href="#" class="mobile-search"
-              ><img src="img/mobile2.png" alt="" />
+              ><img src="img/mobile2.png" alt="m검색" />
               <p>검색</p></a
             >
             <a href="#" class="mobile-home"
-              ><img src="img/mobile3.png" alt="" />
+              ><img src="img/mobile3.png" alt="m홈" />
               <p>홈</p></a
             >
             <a href="#" class="mobile-mypage"
-              ><img src="img/mobile4.png" alt="" />
+              ><img src="img/mobile4.png" alt="m마이페이지" />
               <p>마이페이지</p></a
             >
             <a href="#" class="mobile-like"
-              ><img src="img/mobile5.png" alt="" />
+              ><img src="img/mobile5.png" alt="m찜하기" />
               <p>찜하기</p></a
             >
           </div>
         </div>
         <div class="mobile-dropdown">
           <div class="mobile-dropdown-title"><p>카테고리</p></div>
+          <i class="mobile-dropdown-close"></i>
           <ul>
-            <li><a href="#">침실가구</a></li>
-            <li><a href="#">매트리스</a></li>
-            <li><a href="#">붙박이장/옷장</a></li>
-            <li><a href="#">소파/거실가구</a></li>
-            <li><a href="#">식탁/주방가구</a></li>
-            <li><a href="#">서재/싱글룸</a></li>
-            <li><a href="#">자녀방</a></li>
-            <li><a href="#">온열 침대/소파</a></li>
+            <li>
+              <a href="#">침실가구<i class="m-down-arr"></i></a>
+            </li>
+            <li>
+              <a href="#">매트리스<i class="m-down-arr"></i></a>
+            </li>
+            <li>
+              <a href="#">붙박이장/옷장<i class="m-down-arr"></i></a>
+            </li>
+            <li>
+              <a href="#">소파/거실가구<i class="m-down-arr"></i></a>
+            </li>
+            <li>
+              <a href="#">식탁/주방가구<i class="m-down-arr"></i></a>
+            </li>
+            <li>
+              <a href="#">서재/싱글룸<i class="m-down-arr"></i></a>
+            </li>
+            <li>
+              <a href="#">자녀방<i class="m-down-arr"></i></a>
+            </li>
+            <li>
+              <a href="#">온열 침대/소파<i class="m-down-arr"></i></a>
+            </li>
           </ul>
         </div>
       </div>
       <!-- 플라잉배너 -->
       <div class="fix-banner">
         <a href="#"
-          ><button class="gotop">매장<br />찾기</button></a
+          ><button class="find-store">매장<br />찾기</button></a
         >
-        <a href="#"><img src="img/Arrow_top_fly.png" alt="배너" /></a>
+        <a href="#" class="gotop"
+          ><img src="img/Arrow_top_fly.png" alt="맨위로"
+        /></a>
       </div>
-      <!--//플라잉 배너  -->
       <!-- 헤더 -->
       <header class="header">
         <div class="header-top">
@@ -97,6 +132,7 @@
             </ul>
           </div>
         </div>
+        <!-- 1400px 버전 헤더 -->
         <div class="header-1400px">
           <div class="right-1400px">
             <a href="#" class="logo-1400px"
@@ -104,10 +140,20 @@
             /></a>
             <div class="logo-1400px-arr"><a href="#"></a></div>
           </div>
+          <div class="header-logo">
+            <img src="img/emons_logo.svg" alt="logo" />
+          </div>
         </div>
-        <div class="header-logo">
-          <img src="img/emons_logo.svg" alt="logo" />
-        </div>
+        <!-- 1400px 버전 팝업메뉴 -->
+        <!-- <div class="header-1400px-dim">
+          <div class="header-1400px-popup">
+            <ul>
+              <li><a href="#"><img src="img/logo_02.png" alt="팝업로고"></a></li>
+              <li><a href="#"><img src="img/logo_mall.png" alt="팝업로고"></a></li>
+            </ul>
+          </div>
+        </div> -->
+        <!-- 메인메뉴 -->
         <nav class="gnb">
           <div class="header-bottom">
             <div class="header-mainmenu">
@@ -297,8 +343,7 @@
                   type="text"
                   class="search-text"
                   maxlength="50"
-                  placeholder="검색어 입력"
-                />
+                  placeholder="검색어 입력" />
                 <input type="button" class="search-bt" />
               </form>
             </div>
@@ -314,44 +359,92 @@
           <div class="swiper sw-visual">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
-                <div class="visual-resp-1">
-                  <a href="#"><img src="img/visual1.jpg" alt="비주얼" /></a>
-                </div>
+                <a href="#"
+                  ><img
+                    src="img/visual1.jpg"
+                    alt="비주얼"
+                    class="visual-img" /><img
+                    src="img/visual-resp-1.jpeg"
+                    alt="모바일비주얼"
+                    class="visual-mb"
+                /></a>
               </div>
               <div class="swiper-slide">
-                <div class="visual-resp-2">
-                  <a href="#"><img src="img/visual2.jpg" alt="비주얼" /></a>
-                </div>
+                <a href="#"
+                  ><img
+                    src="img/visual2.jpg"
+                    alt="비주얼"
+                    class="visual-img" /><img
+                    src="img/visual-resp-2.jpeg"
+                    alt="모바일비주얼"
+                    class="visual-mb"
+                /></a>
               </div>
               <div class="swiper-slide">
-                <div class="visual-resp-3">
-                  <a href="#"><img src="img/visual3.jpg" alt="비주얼" /></a>
-                </div>
+                <a href="#"
+                  ><img
+                    src="img/visual3.jpg"
+                    alt="비주얼"
+                    class="visual-img" /><img
+                    src="img/visual-resp-3.jpeg"
+                    alt="모바일비주얼"
+                    class="visual-mb"
+                /></a>
               </div>
               <div class="swiper-slide">
-                <div class="visual-resp-4">
-                  <a href="#"><img src="img/visual4.jpg" alt="비주얼" /></a>
-                </div>
+                <a href="#"
+                  ><img
+                    src="img/visual4.jpg"
+                    alt="비주얼"
+                    class="visual-img" /><img
+                    src="img/visual-resp-4.jpeg"
+                    alt="모바일비주얼"
+                    class="visual-mb"
+                /></a>
               </div>
               <div class="swiper-slide">
-                <div class="visual-resp-5">
-                  <a href="#"><img src="img/visual5.jpg" alt="비주얼" /></a>
-                </div>
+                <a href="#"
+                  ><img
+                    src="img/visual5.jpg"
+                    alt="비주얼"
+                    class="visual-img" /><img
+                    src="img/visual-resp-5.jpeg"
+                    alt="모바일비주얼"
+                    class="visual-mb"
+                /></a>
               </div>
               <div class="swiper-slide">
-                <div class="visual-resp-6">
-                  <a href="#"><img src="img/visual6.jpg" alt="비주얼" /></a>
-                </div>
+                <a href="#"
+                  ><img
+                    src="img/visual6.jpg"
+                    alt="비주얼"
+                    class="visual-img" /><img
+                    src="img/visual-resp-6.jpeg"
+                    alt="모바일비주얼"
+                    class="visual-mb"
+                /></a>
               </div>
               <div class="swiper-slide">
-                <div class="visual-resp-7">
-                  <a href="#"><img src="img/visual7.gif" alt="비주얼" /></a>
-                </div>
+                <a href="#"
+                  ><img
+                    src="img/visual7.gif"
+                    alt="비주얼"
+                    class="visual-img" /><img
+                    src="img/visual-resp-7.gif"
+                    alt="모바일비주얼"
+                    class="visual-mb"
+                /></a>
               </div>
               <div class="swiper-slide">
-                <div class="visual-resp-8">
-                  <a href="#"><img src="img/visual8.jpg" alt="비주얼" /></a>
-                </div>
+                <a href="#"
+                  ><img
+                    src="img/visual8.jpg"
+                    alt="비주얼"
+                    class="visual-img" /><img
+                    src="img/visual-resp-8.jpeg"
+                    alt="모바일비주얼"
+                    class="visual-mb"
+                /></a>
               </div>
             </div>
           </div>
@@ -449,7 +542,7 @@
       <!-- 이벤트 -->
       <section class="event">
         <div class="inner">
-          <div class="visual-slide">
+          <div class="event-slide">
             <h2>놓칠 수 없는 이야기</h2>
             <div class="swiper sw-event">
               <div class="swiper-wrapper">
@@ -502,56 +595,20 @@
                 </div>
                 <div class="swiper-slide">
                   <a href="#" class="event-link">
-                    <img src="img/event1.jpg" alt="이벤트" />
-                    <p class="event-link-title">에몬스 패밀리 세일</p>
+                    <img src="img/event6.jpg" alt="이벤트" />
+                    <p class="event-link-title">
+                      패브릭 VS 가죽 소파 당신의 선택은?
+                    </p>
                     <p class="event-link-desc">
-                      에몬스 전제품 특별 할인전(일부 품목 제외)
+                      신제품 소파 런칭기념 라이브 방송
                     </p></a
                   >
-                </div>
-                <div class="swiper-slide">
-                  <a href="#" class="event-link">
-                    <img src="img/event2.jpg" alt="이벤트" />
-                    <p class="event-link-title">KBS1 일일드라마 금이야옥이야</p>
-                    <p class="event-link-desc">
-                      에몬스가 제품(가구)협찬 합니다.
-                    </p>
-                  </a>
-                </div>
-                <div class="swiper-slide">
-                  <a href="#" class="event-link">
-                    <img src="img/event3.jpg" alt="이벤트" />
-                    <p class="event-link-title">우리집 요즘공간 #요즘 에몬스</p>
-                    <p class="event-link-desc">
-                      에몬스가 제품(가구)협찬 합니다.
-                    </p>
-                  </a>
-                </div>
-                <div class="swiper-slide">
-                  <a href="#" class="event-link">
-                    <img src="img/event4.jpg" alt="이벤트" />
-                    <p class="event-link-title">
-                      KBS2 주말드라마 진짜가 나타났다
-                    </p>
-                    <p class="event-link-desc">
-                      에몬스가 제품(가구)협찬 합니다.
-                    </p>
-                  </a>
-                </div>
-                <div class="swiper-slide">
-                  <a href="#" class="event-link"
-                    ><img src="img/event5.jpg" alt="이벤트" />
-                    <p class="event-link-title">KBS 드라마 ‘비밀의 여자’</p>
-                    <p class="event-link-desc">
-                      에몬스가 제품(가구)협찬 합니다.
-                    </p>
-                  </a>
                 </div>
               </div>
             </div>
             <script>
               new Swiper(".sw-event", {
-                slidesPerView: 3,
+                slidesPerView: "auto",
                 slidesPerGroup: 3,
                 spaceBetween: 25,
                 speed: 2000,
@@ -560,18 +617,6 @@
                   delay: 2000,
                   disableOnInteraction: false,
                 },
-                // breakpoints: {
-                // 550: {
-                //   slidesPerView: 2,
-                //   slidesPerGroup: 2,
-                //   spaceBetween: 25,
-                //   },
-                // 1000: {
-                //   slidesPerView: 3,
-                //   slidesPerGroup: 3,
-                //   spaceBetween: 25,
-                //   },
-                //},
               });
             </script>
           </div>
@@ -1165,15 +1210,13 @@
           </div>
           <div class="footer-top-sosial">
             <div class="familysite">
-              <form>
-                <label for="fmlysite"></label>
-                <select id="shortlink">
-                  <option value="">FAMILY SITE</option>
-                  <option value="ems-gagu">에몬스가구</option>
-                  <option value="ems-online">에몬스 온라인몰</option>
-                  <option value="ems-sale">에몬스 특판</option>
-                </select>
-              </form>
+              <label for="fmlysite"></label>
+              <select id="shortlink">
+                <option value="">FAMILY SITE</option>
+                <option value="ems-gagu">에몬스가구</option>
+                <option value="ems-online">에몬스 온라인몰</option>
+                <option value="ems-sale">에몬스 특판</option>
+              </select>
             </div>
             <div class="footer-sns clearfix">
               <ul class="sns-btns">
