@@ -1,7 +1,7 @@
 .event {
   margin-bottom: 150px;
   overflow: hidden;
-  min-width: 620px;
+  /* min-width: 620px; */
 }
 
 .event .inner h2 {
@@ -10,11 +10,11 @@
   text-align: center;
 }
 .event-slide {
-  margin: 0 30px;
+  padding: 0 30px;
+  width: 100%;
 }
 .event .section-slide {
-  width: 120%;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 .sw-event .swiper-slide {
   width: 448px;
@@ -62,4 +62,13 @@
     font-size: 22px;
     text-align: center;
   }
+}
+
+@media screen and (max-width: 530px) {
+.sw-event .swiper-slide {
+  width: 420px;
+}
+.sw-event .event-link img {
+  width: 420px;
+}
 }
