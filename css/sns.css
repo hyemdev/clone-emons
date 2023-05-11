@@ -66,11 +66,16 @@
     font-size: 22.4px;
   }
   .sns-middle {
-    justify-content: unset;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 120px;
   }
   .sns-middle a {
     min-width: 150px;
     min-height: 150px;
+  }
+  .sns-middle a:last-child {
+    display: none;
   }
 }
 @media screen and (max-width: 760px) {
@@ -78,15 +83,11 @@
     margin-bottom: 70px;
   }
   .sns-middle {
-    flex-wrap: wrap;
-    justify-content: center;
+    padding: 0 20px;
   }
   .sns-middle a {
     max-width: 240px;
     max-height: 240px;
-  }
-  .sns-middle a:last-child {
-    display: none;
   }
 }
 @media screen and (max-width: 560px) {
