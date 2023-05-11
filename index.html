@@ -1083,81 +1083,81 @@
           <a href="#"><img src="img/vrshowroom_banner.jpg" alt="매장찾기" /></a>
         </div>
         <div class="notice-news">
-          <div class="wrap-notice">
+          <div class="inner">
             <h3>공지사항</h3>
-          </div>
-          <div class="wrap-notice-swiper">
-            <div class="swiper sw-notice">
-              <ul class="swiper-wrapper">
-                <li class="swiper-slide">
-                  <div class="nt-slide">
-                    <a href="#">
-                      <span class="notice-title"
-                        >[공지사항] 가격 인상 안내</span
-                      >
-                      <span class="notice-date">2022-07-08</span>
-                    </a>
-                  </div>
-                </li>
-                <li class="swiper-slide">
-                  <div class="nt-slide">
-                    <a href="#">
-                      <span class="notice-title"
-                        >[공지사항] 에몬스 사칭 피싱 문자 주의</span
-                      >
-                      <span class="notice-date">2022-12-29</span>
-                    </a>
-                  </div>
-                </li>
-                <li class="swiper-slide">
-                  <div class="nt-slide">
-                    <a href="#">
-                      <span class="notice-title"
-                        >[에몬스 소식] 에몬스, ‘Emons village’ 디자인으로 글로벌
-                        디자인 잇 어워드 수상</span
-                      >
-                      <span class="notice-date">2022-12-22</span>
-                    </a>
-                  </div>
-                </li>
-                <li class="swiper-slide">
-                  <div class="nt-slide">
-                    <a href="#">
-                      <span class="notice-title"
-                        >[에몬스 소식] 에몬스, 2022 국제기능올림픽 입상자에 포상
-                        수여</span
-                      >
-                      <span class="notice-date">2022-11-07</span>
-                    </a>
-                  </div>
-                </li>
-                <li class="swiper-slide">
-                  <div class="nt-slide">
-                    <a href="#">
-                      <span class="notice-title"
-                        >[에몬스 소식] 에몬스, 한국품질만족지수 11년 연속 1위
-                        선정</span
-                      >
-                      <span class="notice-date">2022-10-26</span>
-                    </a>
-                  </div>
-                </li>
-              </ul>
+            <div class="wrap-notice-swiper">
+              <div class="swiper sw-notice">
+                <ul class="swiper-wrapper">
+                  <li class="swiper-slide">
+                    <div class="nt-slide">
+                      <a href="#">
+                        <em class="notice-title">[공지사항] 가격 인상 안내</em>
+                        <span class="notice-date">2022-07-08</span>
+                      </a>
+                    </div>
+                  </li>
+                  <li class="swiper-slide">
+                    <div class="nt-slide">
+                      <a href="#">
+                        <em class="notice-title"
+                          >[공지사항] 에몬스 사칭 피싱 문자 주의</em
+                        >
+                        <span class="notice-date">2022-12-29</span>
+                      </a>
+                    </div>
+                  </li>
+                  <li class="swiper-slide">
+                    <div class="nt-slide">
+                      <a href="#">
+                        <em class="notice-title"
+                          >[에몬스 소식] 에몬스, ‘Emons village’ 디자인으로
+                          글로벌 디자인 잇 어워드 수상</em
+                        >
+                        <span class="notice-date">2022-12-22</span>
+                      </a>
+                    </div>
+                  </li>
+                  <li class="swiper-slide">
+                    <div class="nt-slide">
+                      <a href="#">
+                        <em class="notice-title"
+                          >[에몬스 소식] 에몬스, 2022 국제기능올림픽 입상자에
+                          포상 수여</em
+                        >
+                        <span class="notice-date">2022-11-07</span>
+                      </a>
+                    </div>
+                  </li>
+                  <li class="swiper-slide">
+                    <div class="nt-slide">
+                      <a href="#">
+                        <em class="notice-title"
+                          >[에몬스 소식] 에몬스, 한국품질만족지수 11년 연속 1위
+                          선정</em
+                        >
+                        <span class="notice-date">2022-10-26</span>
+                      </a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
               <button class="n-sw-prev">이전</button>
               <button class="n-sw-next">다음</button>
             </div>
           </div>
           <script>
             let noticeSwiper = new Swiper(".sw-notice", {
+              autoHeight: true,
               direction: "vertical",
               navigation: {
                 nextEl: ".n-sw-next",
                 prevEl: ".n-sw-prev",
               },
               autoplay: {
-                delay: 2500,
+                delay: 4000,
                 disableOnInteraction: false,
               },
+              speed: 500,
               loop: true,
             });
           </script>
