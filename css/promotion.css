@@ -77,6 +77,11 @@
   background: #fff;
   color: #282828;
 }
+@media screen and (max-width: 1400px) {
+  .promotion .inner {
+    padding: 0 20px;
+  }
+}
 @media screen and (max-width: 760px) {
   .promotion .inner {
     margin-bottom: 70px;

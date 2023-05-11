@@ -46,6 +46,7 @@
 }
 
 .footer-sns {
+  margin-top: -40px;
   float: right;
 }
 .sns-btns {
@@ -122,7 +123,6 @@ select {
   -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
-  font-family: "noto sans kr";
   line-height: 60px;
   cursor: pointer;
 }
