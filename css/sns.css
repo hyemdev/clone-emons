@@ -37,6 +37,9 @@
   object-fit: cover;
   opacity: 0.6;
 }
+.sns-bottom img:hover {
+  opacity: 1;
+}
 @media screen and (max-width: 1400px) {
   .sns-middle {
     justify-content: unset;
@@ -63,6 +66,9 @@
   }
 }
 @media screen and (max-width: 760px) {
+  .sns .inner {
+    margin-bottom: 70px;
+  }
   .sns-middle {
     flex-wrap: wrap;
     justify-content: center;
