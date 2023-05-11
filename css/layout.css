@@ -21,7 +21,14 @@ body {
   font-size: 14px;
   word-break: keep-all;
 }
+
+.active-hide {
+  overflow: hidden;
+}
 /* 공통클래스 */
+.wrap {
+  position: relative;
+}
 .inner {
   position: relative;
   max-width: 1400px;

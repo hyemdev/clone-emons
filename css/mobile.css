@@ -78,6 +78,7 @@
   right: 15px;
   background: url("../img/btns.png") no-repeat center;
   background-position-x: -314px;
+  cursor: pointer;
 }
 
 .m-down-arr {
