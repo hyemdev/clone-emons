@@ -4,6 +4,10 @@
   background: #f3f4f6;
   text-align: center;
 }
+.r-sw-prev.swiper-button-disabled,
+.r-sw-next.swiper-button-disabled {
+  display: none;
+}
 .r-sw-prev {
   font-size: 0;
   width: 30px;
