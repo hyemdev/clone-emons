@@ -16,7 +16,7 @@
   position: absolute;
   top: 50%;
   left: -40px;
-  background: url("/img/review_arr.png") no-repeat;
+  background: url("img/review_arr.png") no-repeat;
   z-index: 99;
   transform: translate(0, 50%);
   cursor: pointer;
@@ -29,7 +29,7 @@
   position: absolute;
   top: 50%;
   right: -40px;
-  background: url("/img/review_arr.png") no-repeat;
+  background: url("img/review_arr.png") no-repeat;
   background-position: -30px;
   z-index: 99;
   transform: translate(0, 50%);
