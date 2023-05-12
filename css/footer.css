@@ -110,8 +110,17 @@
   top: 0;
   right: 0;
 }
+.footer-arr {
+  position: absolute;
+  top: 27px;
+  right: 27px;
+  display: block;
+  width: 11px;
+  height: 6px;
+  background: url("../img/selectbt.jpg") no-repeat center;
+}
 select {
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 300;
   width: 290px;
   height: 60px;
