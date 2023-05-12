@@ -15,7 +15,7 @@
   position: absolute;
   top: 50%;
   left: 0;
-  background: url("/img/bt-left.svg") no-repeat center;
+  background: url("img/bt-left.svg") no-repeat center;
   filter: invert(100%);
   border: none;
   z-index: 99;
@@ -25,7 +25,7 @@
   position: absolute;
   top: 50%;
   right: 0;
-  background: url("/img/bt-right.svg") no-repeat center;
+  background: url("img/bt-right.svg") no-repeat center;
   filter: invert(100%);
   border: none;
   z-index: 99;
