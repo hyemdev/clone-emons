@@ -28,7 +28,7 @@
   border: none;
   position: absolute;
   top: 50%;
-  right: -40px;
+  right: -25px;
   background: url("../img/review_arr.png") no-repeat;
   background-position: -30px;
   z-index: 99;
@@ -110,7 +110,7 @@
   padding-left: 15px;
 }
 .review-heart {
-  background: url("img/reviewheart.svg") no-repeat center;
+  background: url("../img/reviewheart.svg") no-repeat center;
   background-size: cover;
   margin-bottom: 9px;
   font-size: 0;
@@ -140,7 +140,7 @@
   display: inline-block;
   margin-top: 10px;
 }
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1470px) {
   .review .inner {
     padding: 0 35px;
   }

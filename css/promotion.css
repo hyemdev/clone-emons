@@ -1,3 +1,6 @@
+.promotion > h2 {
+  display: none;
+}
 .promotion .inner {
   margin-bottom: 150px;
 }

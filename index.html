@@ -110,8 +110,12 @@
       <div class="header-1400px-dim">
         <div class="header-1400px-popup">
           <ul>
-            <li><a href="#"><img src="img/logo_02.png" alt="팝업로고"></a></li>
-            <li><a href="#"><img src="img/logo_mall.png" alt="팝업로고"></a></li>
+            <li>
+              <a href="#"><img src="img/logo_02.png" alt="팝업로고" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="img/logo_mall.png" alt="팝업로고" /></a>
+            </li>
           </ul>
         </div>
       </div>
@@ -635,7 +639,7 @@
       <!-- 갤러리 -->
       <section class="gallery">
         <div class="inner">
-          <div class="gallery-top">
+          <div class="gallery-list">
             <h2>요즘 감성 요즘 가구</h2>
             <div class="btns">
               <a href="#">침대</a>
@@ -646,11 +650,11 @@
               <a href="#">자녀방</a>
             </div>
           </div>
-          <div class="gallery-bottom clearfix">
-            <div class="gallery-bottom-left">
+          <div class="gallery-content bed clearfix">
+            <div class="gallery-content-left">
               <a href="#"><img src="img/gallery_bed1.jpg" alt="갤러리" /></a>
             </div>
-            <div class="gallery-bottom-right">
+            <div class="gallery-content-right">
               <a href="#" class="mr"
                 ><img src="img/gallery_bed2.jpg" alt="갤러리"
               /></a>
@@ -661,7 +665,106 @@
               <a href="#"><img src="img/gallery_bed5.jpg" alt="갤러리" /></a>
             </div>
           </div>
+          <div class="gallery-content mat clearfix">
+            <div class="gallery-content-left">
+              <a href="#"><img src="img/gallery_mat1.jpg" alt="갤러리" /></a>
+            </div>
+            <div class="gallery-content-right">
+              <a href="#" class="mr"
+                ><img src="img/gallery_mat2.jpg" alt="갤러리"
+              /></a>
+              <a href="#"><img src="img/gallery_mat3.jpg" alt="갤러리" /></a>
+              <a href="#" class="mr"
+                ><img src="img/gallery_mat4.jpg" alt="갤러리"
+              /></a>
+              <a href="#"><img src="img/gallery_mat5.jpg" alt="갤러리" /></a>
+            </div>
+          </div>
+          <div class="gallery-content sofa clearfix">
+            <div class="gallery-content-left">
+              <a href="#"><img src="img/gallery_sofa1.jpg" alt="갤러리" /></a>
+            </div>
+            <div class="gallery-content-right">
+              <a href="#" class="mr"
+                ><img src="img/gallery_sofa2.jpg" alt="갤러리"
+              /></a>
+              <a href="#"><img src="img/gallery_sofa3.jpg" alt="갤러리" /></a>
+              <a href="#" class="mr"
+                ><img src="img/gallery_sofa4.jpg" alt="갤러리"
+              /></a>
+              <a href="#"><img src="img/gallery_sofa5.jpg" alt="갤러리" /></a>
+            </div>
+          </div>
+          <div class="gallery-content living clearfix">
+            <div class="gallery-content-left">
+              <a href="#"><img src="img/gallery_living1.jpg" alt="갤러리" /></a>
+            </div>
+            <div class="gallery-content-right">
+              <a href="#" class="mr"
+                ><img src="img/gallery_living2.jpg" alt="갤러리"
+              /></a>
+              <a href="#"><img src="img/gallery_living3.jpg" alt="갤러리" /></a>
+              <a href="#" class="mr"
+                ><img src="img/gallery_living4.jpg" alt="갤러리"
+              /></a>
+              <a href="#"><img src="img/gallery_living5.jpg" alt="갤러리" /></a>
+            </div>
+          </div>
+          <div class="gallery-content kitchen clearfix">
+            <div class="gallery-content-left">
+              <a href="#"
+                ><img src="img/gallery_kitchen1.jpg" alt="갤러리"
+              /></a>
+            </div>
+            <div class="gallery-content-right">
+              <a href="#" class="mr"
+                ><img src="img/gallery_kitchen2.jpg" alt="갤러리"
+              /></a>
+              <a href="#"
+                ><img src="img/gallery_kitchen3.jpg" alt="갤러리"
+              /></a>
+              <a href="#" class="mr"
+                ><img src="img/gallery_kitchen4.jpg" alt="갤러리"
+              /></a>
+              <a href="#"
+                ><img src="img/gallery_kitchen5.jpg" alt="갤러리"
+              /></a>
+            </div>
+          </div>
+          <div class="gallery-content kid clearfix">
+            <div class="gallery-content-left">
+              <a href="#"><img src="img/gallery_kid1.jpg" alt="갤러리" /></a>
+            </div>
+            <div class="gallery-content-right">
+              <a href="#" class="mr"
+                ><img src="img/gallery_kid2.jpg" alt="갤러리"
+              /></a>
+              <a href="#"><img src="img/gallery_kid3.jpg" alt="갤러리" /></a>
+              <a href="#" class="mr"
+                ><img src="img/gallery_kid4.jpg" alt="갤러리"
+              /></a>
+              <a href="#"><img src="img/gallery_kid5.jpg" alt="갤러리" /></a>
+            </div>
+          </div>
         </div>
+        <script>
+          const GALLERYMENU = document.querySelectorAll(".btns a");
+          const GALLERYCONTENT = document.querySelectorAll(".gallery-content");
+          GALLERYMENU[0].classList.add("gallery-active");
+          GALLERYCONTENT[0].style.display = "block";
+          for (let i = 0; i < GALLERYMENU.length; i++) {
+            GALLERYMENU[i].addEventListener("click", function (e) {
+              e.preventDefault();
+              for (let j = 0; j < GALLERYMENU.length; j++) {
+                // 안보이게, 클래스 제거
+                GALLERYCONTENT[j].style.display = "none";
+                GALLERYMENU[j].classList.remove("gallery-active");
+              }
+              GALLERYCONTENT[i].style.display = "block";
+              GALLERYMENU[i].classList.add("gallery-active");
+            });
+          }
+        </script>
       </section>
       <!--// 갤러리 -->
 
@@ -670,7 +773,7 @@
         <div class="inner clearfix">
           <div class="media-info-mb">
             <p>에몬스의 이야기를 들어보세요</p>
-            <span>표정있는 가구 에몬스</span>
+            <h2>표정있는 가구 에몬스</h2>
           </div>
           <div class="media-video">
             <a href="#"
@@ -686,40 +789,60 @@
             <div class="media-short-ep">
               <div class="swiper sw-media">
                 <div class="swiper-wrapper">
-                  <div class="swiper-slide md-slide">
-                    <img src="img/media1.jpg" alt="미디어" />
-                    <p>셀럽ㅣ쥬니님의 공간일기 코지스타일</p>
+                  <div class="swiper-slide">
+                    <div class="md-slide">
+                      <img src="img/media1.jpg" alt="미디어" />
+                      <p>셀럽ㅣ쥬니님의 공간일기 코지스타일</p>
+                    </div>
                   </div>
-                  <div class="swiper-slide md-slide">
-                    <img src="img/media2.jpg" alt="미디어" />
-                    <p>
-                      요즘의 나 ㅣ Ep.1 \'요즘의 나, 에몬스에 살아\'! (ft.
-                      위브릭블랑 소파)
-                    </p>
+                  <div class="swiper-slide">
+                    <div class="md-slide">
+                      <img src="img/media2.jpg" alt="미디어" />
+                      <p>
+                        요즘의 나 ㅣ Ep.1 \'요즘의 나, 에몬스에 살아\'! (ft.
+                        위브릭블랑 소파)
+                      </p>
+                    </div>
                   </div>
-                  <div class="swiper-slide md-slide">
-                    <img src="img/media3.jpg" alt="미디어" />
-                    <p>유튜버 어느덧오늘님의 48평 코지무드 모듈소파 인테리어</p>
+                  <div class="swiper-slide">
+                    <div class="md-slide">
+                      <img src="img/media3.jpg" alt="미디어" />
+                      <p>
+                        유튜버 어느덧오늘님의 48평 코지무드 모듈소파 인테리어
+                      </p>
+                    </div>
                   </div>
-                  <div class="swiper-slide md-slide">
-                    <img src="img/media4.jpg" alt="미디어" />
-                    <p>요즘공간 요즘감성 에몬스 브랜드 필름</p>
+                  <div class="swiper-slide">
+                    <div class="md-slide">
+                      <img src="img/media4.jpg" alt="미디어" />
+                      <p>요즘공간 요즘감성 에몬스 브랜드 필름</p>
+                    </div>
                   </div>
-                  <div class="swiper-slide md-slide">
-                    <img src="img/media5.jpg" alt="미디어" />
-                    <p>Ep.01 요즘 퇴근 후가 즐거운 N가지 이유</p>
+                  <div class="swiper-slide">
+                    <div class="md-slide">
+                      <img src="img/media5.jpg" alt="미디어" />
+                      <p>Ep.01 요즘 퇴근 후가 즐거운 N가지 이유</p>
+                    </div>
                   </div>
-                  <div class="swiper-slide md-slide">
-                    <img src="img/media6.jpg" alt="미디어" />
-                    <p>유튜버 어느덧오늘님의 48평 코지무드 모듈소파 인테리어</p>
+                  <div class="swiper-slide">
+                    <div class="md-slide">
+                      <img src="img/media6.jpg" alt="미디어" />
+                      <p>
+                        유튜버 어느덧오늘님의 48평 코지무드 모듈소파 인테리어
+                      </p>
+                    </div>
                   </div>
-                  <div class="swiper-slide md-slide">
-                    <img src="img/media7.jpg" alt="미디어" />
-                    <p>유튜버 차이님의 감성있는 패브릭 소파 인테리어</p>
+                  <div class="swiper-slide">
+                    <div class="md-slide">
+                      <img src="img/media7.jpg" alt="미디어" />
+                      <p>유튜버 차이님의 감성있는 패브릭 소파 인테리어</p>
+                    </div>
                   </div>
-                  <div class="swiper-slide md-slide">
-                    <img src="img/media8.jpg" alt="미디어" />
-                    <p>내 몸에 딱 맞는 수면맞춤, 포레스 매트리스</p>
+                  <div class="swiper-slide">
+                    <div class="md-slide">
+                      <img src="img/media8.jpg" alt="미디어" />
+                      <p>내 몸에 딱 맞는 수면맞춤, 포레스 매트리스</p>
+                    </div>
                   </div>
                 </div>
                 <button class="m-sw-prev"></button>
@@ -727,7 +850,7 @@
                 <div class="m-sw-pagi"></div>
               </div>
               <script>
-                var swiper = new Swiper(".sw-media", {
+                const MEDIASWIPER = new Swiper(".sw-media", {
                   slidesPerView: 3,
                   spaceBetween: 5,
                   pagination: {
@@ -739,6 +862,27 @@
                     nextEl: ".m-sw-next",
                   },
                 });
+                const MEDIALIST = document.querySelectorAll(".md-slide");
+                MEDIALIST[0].classList.add("md-slide-active");
+                for (let i = 0; i < MEDIALIST.length; i++) {
+                  MEDIALIST[i].addEventListener("click", function (e) {
+                    e.preventDefault();
+                    for (let j = 0; j < MEDIALIST.length; j++) {
+                      MEDIALIST[j].classList.remove("md-slide-active");
+                    }
+                    MEDIALIST[i].classList.add("md-slide-active");
+                  });
+                }
+                const VIDEOIMAGE = document.querySelector(".media-video img");
+                const VIDEOTHUM = document.querySelectorAll(".md-slide img");
+                let imageData;
+                for (let i = 0; i < VIDEOTHUM.length; i++) {
+                  MEDIALIST[i].addEventListener("click", function (e) {
+                    e.preventDefault();
+                    imageData = this.childNodes[1].src;
+                    VIDEOIMAGE.src = imageData;
+                  });
+                }
               </script>
             </div>
           </div>
@@ -747,6 +891,7 @@
       <!--// 미디어 -->
       <!-- 프로모션 -->
       <section class="promotion">
+        <h2>프로모션</h2>
         <div class="inner">
           <div class="swiper sw-promotion">
             <div class="swiper-wrapper">
@@ -872,7 +1017,7 @@
             <button class="sw-bt p-sw-next">다음</button>
           </div>
           <script>
-            let promotionSwiper = new Swiper(".sw-promotion", {
+            const PROMOTIONSWIPER = new Swiper(".sw-promotion", {
               slidesPerView: 1,
               speed: 500,
               loop: true,
@@ -921,7 +1066,9 @@
                   </div>
                   <div class="review-prod clearfix">
                     <div class="review-prod-img">
-                      <a href="#"><img src="img/review1-1.jpg" alt="리뷰" /></a>
+                      <a href="#"
+                        ><img src="img/review_prod1.jpg" alt="리뷰"
+                      /></a>
                     </div>
                     <div class="review-prod-info">
                       <div class="review-heart">하트</div>
@@ -948,7 +1095,9 @@
                   </div>
                   <div class="review-prod clearfix">
                     <div class="review-prod-img">
-                      <a href="#"><img src="img/review2-2.jpg" alt="리뷰" /></a>
+                      <a href="#"
+                        ><img src="img/review_prod2.jpg" alt="리뷰"
+                      /></a>
                     </div>
                     <div class="review-prod-info">
                       <div class="review-heart">하트</div>
@@ -975,7 +1124,9 @@
                   </div>
                   <div class="review-prod clearfix">
                     <div class="review-prod-img">
-                      <a href="#"><img src="img/review3-3.jpg" alt="리뷰" /></a>
+                      <a href="#"
+                        ><img src="img/review_prod3.jpg" alt="리뷰"
+                      /></a>
                     </div>
                     <div class="review-prod-info">
                       <div class="review-heart">하트</div>
@@ -1004,7 +1155,9 @@
                   </div>
                   <div class="review-prod clearfix">
                     <div class="review-prod-img">
-                      <a href="#"><img src="img/review4-4.jpg" alt="리뷰" /></a>
+                      <a href="#"
+                        ><img src="img/review_prod4.jpg" alt="리뷰"
+                      /></a>
                     </div>
                     <div class="review-prod-info">
                       <div class="review-heart">하트</div>
@@ -1032,7 +1185,9 @@
                   </div>
                   <div class="review-prod clearfix">
                     <div class="review-prod-img">
-                      <a href="#"><img src="img/review5-5.jpg" alt="리뷰" /></a>
+                      <a href="#"
+                        ><img src="img/review_prod5.jpg" alt="리뷰"
+                      /></a>
                     </div>
                     <div class="review-prod-info">
                       <div class="review-heart">하트</div>
@@ -1064,7 +1219,9 @@
                   </div>
                   <div class="review-prod clearfix">
                     <div class="review-prod-img">
-                      <a href="#"><img src="img/review6-6.jpg" alt="리뷰" /></a>
+                      <a href="#"
+                        ><img src="img/review_prod6.jpg" alt="리뷰"
+                      /></a>
                     </div>
                     <div class="review-prod-info">
                       <div class="review-heart">하트</div>
@@ -1079,7 +1236,7 @@
             </div>
           </div>
           <script>
-            let reviewSwiper = new Swiper(".sw-review", {
+            const REVIEWSWIPER = new Swiper(".sw-review", {
               slidesPerView: 1,
               spaceBetween: 20,
               breakpoints: {
@@ -1138,7 +1295,7 @@
         </div>
         <div class="notice-news">
           <div class="inner">
-            <h3>공지사항</h3>
+            <h2>공지사항</h2>
             <div class="wrap-notice-swiper">
               <div class="swiper sw-notice">
                 <ul class="swiper-wrapper">
@@ -1200,7 +1357,7 @@
             </div>
           </div>
           <script>
-            let noticeSwiper = new Swiper(".sw-notice", {
+            const NOTICESWIPER = new Swiper(".sw-notice", {
               autoHeight: true,
               direction: "vertical",
               navigation: {
@@ -1251,13 +1408,12 @@
           </div>
           <div class="footer-top-sosial">
             <div class="familysite">
-              <label for="shortlink"><i class="footer-arr"></i>
+              <label for="shortlink"><i class="footer-arr"></i></label>
               <select id="shortlink">
                 <option value="">FAMILY SITE</option>
                 <option value="ems-gagu">에몬스가구</option>
                 <option value="ems-online">에몬스 온라인몰</option>
                 <option value="ems-sale">에몬스 특판</option>
-              </label>
               </select>
             </div>
             <div class="footer-sns clearfix">
