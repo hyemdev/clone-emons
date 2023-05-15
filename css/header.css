@@ -274,7 +274,6 @@
   float: right;
   content: "";
   transform: translateY(5%);
-  background-size: none;
 }
 
 .dropdown-sub {

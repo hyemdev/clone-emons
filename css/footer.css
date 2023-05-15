@@ -129,8 +129,8 @@ select {
   border: 1px solid #e0e0e0;
   margin: 0;
   padding: 0 30px;
-  -moz-appearance: none;
-  -webkit-appearance: none;
+  /* -moz-appearance: none;
+  -webkit-appearance: none; */
   appearance: none;
   line-height: 60px;
   cursor: pointer;
@@ -142,7 +142,6 @@ select:hover {
 select:focus {
   color: #222;
   border-color: #aaa;
-  box-shadow: 0;
   outline: none;
 }
 select:disabled {
