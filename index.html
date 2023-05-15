@@ -121,9 +121,7 @@
       </div>
       <!-- 플라잉배너 -->
       <div class="fix-banner">
-        <a href="#"
-          ><button class="find-store">매장<br />찾기</button></a
-        >
+        <a href="#" class="find-store">매장<br />찾기</a>
         <a href="#" class="gotop"
           ><img src="img/Arrow_top_fly.png" alt="맨위로"
         /></a>
@@ -357,7 +355,7 @@
                   maxlength="50"
                   placeholder="검색어 입력"
                 />
-                <input type="button" class="search-bt" />
+                <button type="button" class="search-bt"></button>
               </form>
             </div>
           </div>
@@ -366,6 +364,7 @@
       <!--// 헤더 -->
       <!-- 비주얼 -->
       <section class="visual">
+        <h2>비주얼</h2>
         <div class="visual-slide">
           <button class="v-sw-prev">이전</button>
           <button class="v-sw-next">다음</button>
@@ -496,6 +495,7 @@
       <!-- // 비주얼 -->
       <!-- 프로덕트 -->
       <section class="product clearfix">
+        <h2>프로덕트</h2>
         <div class="inner">
           <div class="prod-wrap">
             <ul class="product-list">
@@ -874,12 +874,12 @@
                   });
                 }
                 const VIDEOIMAGE = document.querySelector(".media-video img");
-                const VIDEOTHUM = document.querySelectorAll(".md-slide img");
+                const VIDEOTHUMB = document.querySelectorAll(".md-slide img");
                 let imageData;
-                for (let i = 0; i < VIDEOTHUM.length; i++) {
+                for (let i = 0; i < VIDEOTHUMB.length; i++) {
                   MEDIALIST[i].addEventListener("click", function (e) {
                     e.preventDefault();
-                    imageData = this.childNodes[1].src;
+                    imageData = VIDEOTHUMB[i].src;
                     VIDEOIMAGE.src = imageData;
                   });
                 }

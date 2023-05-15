@@ -83,7 +83,7 @@
   }
 }
 @media screen and (max-width: 1000px) {
-  .notice-news h3 {
+  .notice-news h2 {
     float: unset;
     margin-bottom: 20px;
   }

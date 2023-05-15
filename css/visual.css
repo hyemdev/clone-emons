@@ -2,7 +2,9 @@
   width: 100%;
   margin-bottom: 100px;
 }
-
+.visual h2 {
+  display: none;
+}
 .visual-slide {
   display: block;
   position: relative;
