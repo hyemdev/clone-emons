@@ -1,0 +1,43 @@
+{
+  "media_count": 8,
+  "media_0": {
+    "pic": "media1.jpg",
+    "kind": "미디어",
+    "intro": "셀럽ㅣ쥬니님의 공간일기 코지스타일"
+  },
+  "media_1": {
+    "pic": "media2.jpg",
+    "kind": "미디어",
+    "intro": "요즘의 나 ㅣ Ep.1 '요즘의 나, 에몬스에 살아'! (ft.위브릭블랑 소파)"
+  },
+  "media_2": {
+    "pic": "media3.jpg",
+    "kind": "미디어",
+    "intro": "요즘공간 요즘감성 에몬스 브랜드 필름"
+  },
+  "media_3": {
+    "pic": "media4.jpg",
+    "kind": "미디어",
+    "intro": "Ep.01 요즘 퇴근 후가 즐거운 N가지 이유"
+  },
+  "media_4": {
+    "pic": "media5.jpg",
+    "kind": "미디어",
+    "intro": "Ep.02 흔한 직장인의 요즘 재택근무!"
+  },
+  "media_5": {
+    "pic": "media6.jpg",
+    "kind": "미디어",
+    "intro": "유튜버 어느덧오늘님의 48평 코지무드 모듈소파 인테리어"
+  },
+  "media_6": {
+    "pic": "media7.jpg",
+    "kind": "미디어",
+    "intro": "유튜버 차이님의 감성있는 패브릭 소파 인테리어"
+  },
+  "media_7": {
+    "pic": "media8.jpg",
+    "kind": "미디어",
+    "intro": "내 몸에 딱 맞는 수면맞춤, 포레스 매트리스"
+  }
+}

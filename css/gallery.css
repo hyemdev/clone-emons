@@ -1,4 +1,4 @@
-.gallery-top {
+.gallery-list {
   text-align: center;
 }
 .btns {
@@ -19,58 +19,67 @@
 .btns a:last-child {
   margin-right: 0;
 }
-.gallery-bottom {
+.gallery-content {
   margin-bottom: 150px;
+  display: none;
 }
-.gallery-bottom-left {
+.btns .gallery-active {
+  width: 108px;
+  height: 48px;
+  line-height: 48px;
+  border: 1px solid #17008f;
+  color: #17008f;
+  background: #fff;
+}
+.gallery-content-left {
   width: 50%;
   max-width: 680px;
   float: left;
 }
-.gallery-bottom-left img {
+.gallery-content-left img {
   overflow: hidden;
   border-radius: 8px;
   width: 100%;
 }
-.gallery-bottom-right {
+.gallery-content-right {
   width: 50%;
   float: left;
   margin-left: 20px;
 }
-.gallery-bottom-right a {
+.gallery-content-right a {
   display: block;
   float: left;
   border-radius: 8px;
   overflow: hidden;
   margin-bottom: 20px;
 }
-.gallery-bottom-right .mr {
+.gallery-content-right .mr {
   display: block;
   margin-right: 20px;
 }
 @media screen and (max-width: 1420px) {
-  .gallery-top {
+  .gallery-list {
     padding: 0 10px;
   }
-  .gallery-bottom {
+  .gallery-content {
     width: 50vw;
     margin: 0 auto;
     min-width: 680px;
     margin-bottom: 70px;
   }
-  .gallery-bottom > div {
+  .gallery-content > div {
     width: 100%;
   }
-  .gallery-bottom-right {
+  .gallery-content-right {
     margin-top: 15px;
     margin-left: 0;
   }
-  .gallery-bottom-right img {
+  .gallery-content-right img {
     max-width: 330px;
   }
 }
 @media screen and (max-width: 1000px) {
-  .gallery-top h2 {
+  .gallery-list h2 {
     font-size: 22.4px;
   }
   .btns a {
@@ -86,30 +95,30 @@
   .btns {
     margin-bottom: 30px;
   }
-  .gallery-bottom {
+  .gallery-content {
     min-width: 500px;
   }
-  .gallery-bottom > div {
+  .gallery-content > div {
     max-width: 500px;
   }
-  .gallery-bottom-right a {
+  .gallery-content-right a {
     margin-bottom: 10px;
   }
-  .gallery-bottom-right .mr {
+  .gallery-content-right .mr {
     margin-right: 10px;
   }
-  .gallery-bottom-right img {
+  .gallery-content-right img {
     max-width: 245px;
   }
 }
 @media screen and (max-width: 550px) {
-  .gallery-bottom {
+  .gallery-content {
     min-width: 340px;
   }
-  .gallery-bottom > div {
+  .gallery-content > div {
     max-width: 340px;
   }
-  .gallery-bottom-right img {
+  .gallery-content-right img {
     max-width: 165px;
   }
 }
