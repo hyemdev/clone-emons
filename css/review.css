@@ -123,9 +123,7 @@
 .review-price {
   float: left;
   font-size: 13px;
-}
-.pricepd {
-  padding-top: 30px;
+  width: 100%;
 }
 .review-price p {
   letter-spacing: -0.32px;

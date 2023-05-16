@@ -3,7 +3,7 @@
   display: none;
   position: fixed;
   width: 100vw;
-  height: 100vh; 
+  height: 100vh;
   background: rgba(0, 0, 0, 0.5);
   z-index: 999999;
 }
@@ -20,7 +20,7 @@
   height: 80px;
   background: #fff;
   border-radius: 5px;
-  box-shadow: 1px 1px 10px 1px #5E5E5E;
+  box-shadow: 1px 1px 10px 1px #5e5e5e;
   top: 65px;
   left: 180px;
 }
@@ -52,9 +52,9 @@
   padding: 21px 15px;
 }
 .find-store {
-  display: inline-block;
-  font-size: 11px;
-  font-weight: 700;
+  padding-top: 20px;
+  font-size: 12px;
+  line-height: 17px;
   width: 55px;
   height: 70px;
   text-align: center;
@@ -64,7 +64,6 @@
   color: #fff;
   cursor: pointer;
 }
-
 
 /* 헤더상단 */
 .header {
@@ -178,8 +177,6 @@
   overflow: hidden;
 }
 
-
-
 /* 헤더로고 */
 .header-logo {
   height: 90px;
@@ -277,7 +274,6 @@
   float: right;
   content: "";
   transform: translateY(5%);
-  background-size: none;
 }
 
 .dropdown-sub {
@@ -440,10 +436,8 @@
   cursor: pointer;
 }
 
-
 /* 반응형 */
 @media screen and (max-width: 1400px) {
-
   .header-top {
     height: 0;
     background: #fff;
