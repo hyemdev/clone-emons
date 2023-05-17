@@ -9,8 +9,7 @@
   display: block;
   font-size: 16.8px;
 }
-.media-info-mb > span {
-  display: block;
+.media-info-mb h2 {
   margin-top: 10px;
   font-size: 28px;
   font-weight: 700;
@@ -69,20 +68,41 @@
 }
 .sw-media {
   padding-top: 30px;
+  cursor: pointer;
+}
+.md-slide-active {
+  background: #282828;
+  max-width: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+  padding-bottom: 5px;
 }
 .md-slide img {
   width: 100%;
   border-radius: 5px;
 }
 .md-slide p {
+  font-size: 12px;
+  margin-top: 5px;
+  padding: 0 2px;
+  letter-spacing: -0.24px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+.md-slide-active img {
+  margin: 5%;
+  width: 90%;
+}
+.md-slide-active p {
+  color: #fff;
+  padding: 0 8px;
 }
 .m-sw-prev,
 .m-sw-next {
   position: absolute;
   top: -5px;
+  cursor: pointer;
 }
 .m-sw-prev.swiper-button-disabled,
 .m-sw-next.swiper-button-disabled {
@@ -114,7 +134,7 @@
 .sw-media .swiper-pagination-current {
   font-weight: bold;
 }
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1420px) {
   .media .inner {
     padding: 0 20px;
     max-width: 900px;

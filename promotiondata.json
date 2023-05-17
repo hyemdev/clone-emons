@@ -1,0 +1,57 @@
+{
+  "promotion_count": 9,
+  "promotion_0": {
+    "link": "#",
+    "pic": "promotion1.jpg",
+    "kind": "프로모션",
+    "title": "치어리더, 박기량"
+  },
+  "promotion_1": {
+    "link": "#",
+    "pic": "promotion2.jpg",
+    "kind": "프로모션",
+    "title": "볼링선수, 신수지"
+  },
+  "promotion_2": {
+    "link": "#",
+    "pic": "promotion3.jpg",
+    "kind": "프로모션",
+    "title": "10월 신부, 아유미"
+  },
+  "promotion_3": {
+    "link": "#",
+    "pic": "promotion4.jpg",
+    "kind": "프로모션",
+    "title": "신화, 앤디"
+  },
+  "promotion_4": {
+    "link": "#",
+    "pic": "promotion5.jpg",
+    "kind": "프로모션",
+    "title": "국대 스포츠단 펜싱팀"
+  },
+  "promotion_5": {
+    "link": "#",
+    "pic": "promotion6.jpg",
+    "kind": "프로모션",
+    "title": "뮤지컬 배우, 정선아"
+  },
+  "promotion_6": {
+    "link": "#",
+    "pic": "promotion7.jpg",
+    "kind": "프로모션",
+    "title": "필라테스 여신, 양정원"
+  },
+  "promotion_7": {
+    "link": "#",
+    "pic": "promotion8.jpg",
+    "kind": "프로모션",
+    "title": "피겨요정, 곽민정"
+  },
+  "promotion_8": {
+    "link": "#",
+    "pic": "promotion9.jpg",
+    "kind": "프로모션",
+    "title": "방송인, 장영란"
+  }
+}

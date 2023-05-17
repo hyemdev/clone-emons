@@ -2,13 +2,15 @@
   margin-bottom: 150px;
   /* min-width: 500px; */
 }
+.product h2 {
+  display: none;
+}
 .product-list {
   width: 100%;
   max-width: 1400px;
   display: flex;
   justify-content: space-between;
 }
-
 
 .product-list li img {
   width: 135px;
