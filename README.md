@@ -7,11 +7,13 @@
 
 - 👨‍💻 All of my projects are available at [notion](https://concrete-scallion-31d.notion.site/EMONS-CLONE-PROJECT-460d3f7690a24e5faeca3878c38cdc92)
 
-- 📫 How to reach me **devdev.hyem@gmail.com**
-- 📫 How to reach me **return.ys@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
+
+- 📫 How to reach me ! hyemi **devdev.hyem@gmail.com** / https://github.com/hyemdev
+- 📫 How to reach me ! yongsu **return.ys@gmail.com** /https://github.com/returnys
+
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
