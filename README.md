@@ -1,16 +1,20 @@
 # 협업을 위한 미니 팀 프로젝트입니다.
 
-<h1 align="center">Hi 👋, we're team 'hello world!'</h1>
+<h1 align="center">Hi 👋, we're 'team hello world!'</h1>
 <h3 align="center">EMONS.CO.KR site clone coding project.</h3>
 
-- 🌱 I’m currently learning **html, css, javascript, (will be react...)**
 
-- 👨‍💻 All of my projects are available at [https://www.notion.so/hyem-s-dev-STUDY-75ffe819c7534a049b59871e6fe17dd4?pvs=4](https://www.notion.so/hyem-s-dev-STUDY-75ffe819c7534a049b59871e6fe17dd4?pvs=4)
+- 🌱 we're currently learning **html, css, javascript, (will be react...)**
 
-- 📫 How to reach me **devdev.hyem@gmail.com**
+- 👨‍💻 All of my projects are available at [project's NOTION](https://www.notion.so/hyem-s-dev-STUDY-75ffe819c7534a049b59871e6fe17dd4?pvs=4)
+
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
+
+- 📫 How to reach "hyemi" **devdev.hyem@gmail.com** / https://github.com/yemdev 
+- 📫 How to reach "yongsu" **return.ys@gmail.com** / https://github.com/returnys 
+
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
