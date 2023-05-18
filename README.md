@@ -12,8 +12,8 @@
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 
-- 📫 How to reach "hyemi" **devdev.hyem@gmail.com**
-- 📫 How to reach "yongsu" **return.ys@gmail.com**
+- 📫 How to reach "hyemi" **devdev.hyem@gmail.com** / https://github.com/yemdev 
+- 📫 How to reach "yongsu" **return.ys@gmail.com** / https://github.com/returnys 
 
 </p>
 
