@@ -40,7 +40,6 @@
 <br>
 <img src="https://img.shields.io/badge/slack-4A154B?style=for-the-badge&logo=slack&logoColor=white">
 <img src="https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=notion&logoColor=white">
-</p>
 <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=hyemdev&show_icons=true&locale=en&layout=compact" alt="hyemdev" /></p>
 
 <h3 align="left">개선 사항</h3>
