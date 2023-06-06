@@ -31,6 +31,8 @@
 </p>
 
 <h3 align="left">사용 언어 및 tools</h3>
+<p>
+
 <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
 <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white">
 <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
@@ -40,6 +42,8 @@
 <br>
 <img src="https://img.shields.io/badge/slack-4A154B?style=for-the-badge&logo=slack&logoColor=white">
 <img src="https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=notion&logoColor=white">
+
+</p>
 <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=hyemdev&show_icons=true&locale=en&layout=compact" alt="hyemdev" /></p>
 
 <h3 align="left">개선 사항</h3>
