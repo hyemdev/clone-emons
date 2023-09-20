@@ -15,7 +15,7 @@
 <p align="left">
 
 - 👨‍💻 해당 프로젝트에 관한 정보는 여기에서 확인할 수 있습니다. <br>
-  [notion](https://concrete-scallion-31d.notion.site/EMONS-CLONE-PROJECT-460d3f7690a24e5faeca3878c38cdc92), [github](https://github.com/returnys/clone-emons), [ppt](https://www.canva.com/design/DAFif2AIqjA/kmEm54YTThxY9hQ6Vzgm4w/edit?utm_content=DAFif2AIqjA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+  [notion](https://concrete-scallion-31d.notion.site/EMONS-CLONE-PROJECT-4d63319d6feb4f90a18a2fb520715ba1?pvs=4), [github](https://github.com/returnys/clone-emons), [ppt](https://www.canva.com/design/DAFif2AIqjA/kmEm54YTThxY9hQ6Vzgm4w/edit?utm_content=DAFif2AIqjA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 </p>
 
